@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";",
+		".gradient-border {\r\n  --borderWidth: 5px;\r\n  background: #1D1F20;\r\n  position: relative;\r\n  border-radius: var(--borderWidth);\r\n}\r\n.gradient-border:after {\r\n  content: '';\r\n  position: absolute;\r\n  top: calc(-1 * var(--borderWidth));\r\n  left: calc(-1 * var(--borderWidth));\r\n  height: calc(100% + var(--borderWidth) * 2);\r\n  width: calc(100% + var(--borderWidth) * 2);\r\n  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);\r\n  border-radius: calc(2 * var(--borderWidth));\r\n  z-index: -1;\r\n  animation: animatedgradient 3s ease alternate infinite;\r\n  background-size: 300% 300%;\r\n}\r\n\r\n\r\n@keyframes animatedgradient {\r\n\t0% {\r\n\t\tbackground-position: 0% 50%;\r\n\t}\r\n\t50% {\r\n\t\tbackground-position: 100% 50%;\r\n\t}\r\n\t100% {\r\n\t\tbackground-position: 0% 50%;\r\n\t}\r\n}"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,gBAAgB,CAAC,EACf,aAAa,CAAA,IAAC,EACd,UAAU,EAAE,OAAO,EACnB,QAAQ,EAAE,QAAQ,EAClB,aAAa,EAAE,kBAAkB,GAClC;;AACD,AAAA,gBAAgB,CAAC,KAAK,CAAC,EACrB,OAAO,EAAE,EAAE,EACX,QAAQ,EAAE,QAAQ,EAClB,GAAG,EAAE,6BAA6B,EAClC,IAAI,EAAE,6BAA6B,EACnC,MAAM,EAAE,mCAAmC,EAC3C,KAAK,EAAE,mCAAmC,EAC1C,UAAU,EAAE,8FAA8F,EAC1G,aAAa,EAAE,4BAA4B,EAC3C,OAAO,EAAE,EAAE,EACX,SAAS,EAAE,2CAA2C,EACtD,eAAe,EAAE,SAAS,GAC3B;;AAGD,UAAU,CAAV,gBAAU,GACT,EAAE,GACD,mBAAmB,EAAE,MAAM;EAE5B,GAAG,GACF,mBAAmB,EAAE,QAAQ;EAE9B,IAAI,GACH,mBAAmB,EAAE,MAAM"
+}
