@@ -2,26 +2,26 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>前端开发基础知识-常用工具</title>
+    <title>什么是javascript异步编程</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Your awesome title" />
     <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>前端开发基础知识-常用工具 | Your awesome title</title>
+<title>什么是javascript异步编程 | Your awesome title</title>
 <meta name="generator" content="Jekyll v4.2.0" />
-<meta property="og:title" content="前端开发基础知识-常用工具" />
+<meta property="og:title" content="什么是javascript异步编程" />
 <meta name="author" content="Cai Borui" />
 <meta property="og:locale" content="zh" />
-<meta name="description" content="1. package.json是什么" />
-<meta property="og:description" content="1. package.json是什么" />
-<link rel="canonical" href="/zh/work/javascript/2020/06/02/zh-web-dev-basic-tools.html" />
-<meta property="og:url" content="/zh/work/javascript/2020/06/02/zh-web-dev-basic-tools.html" />
+<meta name="description" content="1. js有多线程吗 很多人认为setTimeout和setInterval就是JS中的多线程。setTimeout相当于启动一个线程，等待一段时间后执行函数，setInterval则是在另外的一个线程中，每隔一段时间执行函数。 实际上这种观点是错误的。 setTimeout实际上是把函数放入等待队列，等待主线程执行完毕后执行" />
+<meta property="og:description" content="1. js有多线程吗 很多人认为setTimeout和setInterval就是JS中的多线程。setTimeout相当于启动一个线程，等待一段时间后执行函数，setInterval则是在另外的一个线程中，每隔一段时间执行函数。 实际上这种观点是错误的。 setTimeout实际上是把函数放入等待队列，等待主线程执行完毕后执行" />
+<link rel="canonical" href="/zh/work/javascript/2020/06/07/zh-web-dev-javascript-async.html" />
+<meta property="og:url" content="/zh/work/javascript/2020/06/07/zh-web-dev-javascript-async.html" />
 <meta property="og:site_name" content="Your awesome title" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-06-02T00:43:26+08:00" />
+<meta property="article:published_time" content="2020-06-07T00:43:26+08:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="前端开发基础知识-常用工具" />
+<meta property="twitter:title" content="什么是javascript异步编程" />
 <script type="application/ld+json">
-{"author":{"@type":"Person","name":"Cai Borui"},"@type":"BlogPosting","headline":"前端开发基础知识-常用工具","dateModified":"2020-06-02T00:43:26+08:00","datePublished":"2020-06-02T00:43:26+08:00","description":"1. package.json是什么","url":"/zh/work/javascript/2020/06/02/zh-web-dev-basic-tools.html","mainEntityOfPage":{"@type":"WebPage","@id":"/zh/work/javascript/2020/06/02/zh-web-dev-basic-tools.html"},"@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"Cai Borui"},"@type":"BlogPosting","headline":"什么是javascript异步编程","dateModified":"2020-06-07T00:43:26+08:00","datePublished":"2020-06-07T00:43:26+08:00","description":"1. js有多线程吗 很多人认为setTimeout和setInterval就是JS中的多线程。setTimeout相当于启动一个线程，等待一段时间后执行函数，setInterval则是在另外的一个线程中，每隔一段时间执行函数。 实际上这种观点是错误的。 setTimeout实际上是把函数放入等待队列，等待主线程执行完毕后执行","url":"/zh/work/javascript/2020/06/07/zh-web-dev-javascript-async.html","mainEntityOfPage":{"@type":"WebPage","@id":"/zh/work/javascript/2020/06/07/zh-web-dev-javascript-async.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     <link href="/assets/css/primer.css" rel="stylesheet" />
@@ -134,75 +134,217 @@
     <div style="min-height: 87vh;">
 
   <div class="markdown-body col-sm-12 col-md-10 mx-auto">
-    <h1>前端开发基础知识-常用工具</h1>
+    <h1>什么是javascript异步编程</h1>
     
     <p>
-      02 Jun 2020
+      07 Jun 2020
       
       
     </p>
     <div>
-        <h2 id="1-packagejson是什么">1. package.json是什么</h2>
+        <h2 id="1-js有多线程吗">1. js有多线程吗</h2>
+<p>很多人认为setTimeout和setInterval就是JS中的多线程。setTimeout相当于启动一个线程，等待一段时间后执行函数，setInterval则是在另外的一个线程中，每隔一段时间执行函数。
+实际上这种观点是错误的。
+setTimeout实际上是把函数放入等待队列，等待主线程执行完毕后执行</p>
 
-<p>就像java里面的maven包管理工具的pom.xml和gem的gemfile，package.json是node.js的包管理工具npm的配置文件</p>
-
-<h3 id="常用举例">常用举例：</h3>
-
-<p>使用npm install [&lt;@scope&gt;/]<name>@<version>安装特定依赖包</version></name></p>
-
-<p>使用npm install 安装 package.json文件中指定的全部依赖包</p>
-
-<p>更多用法请见<a href="https://docs.npmjs.com/">官方文档</a></p>
-
-<h2 id="2-webpack是什么">2. webpack是什么</h2>
-
-<p>随着web应用越来越复杂</p>
-
-<p>webpack应运而生</p>
-
-<p>webpack是一个可以将复杂程序进行打包发布的软件</p>
-
-<p>打包的好处是可以对应用程序进行压缩大小等处理，提高性能</p>
-
-<p>webpack继承了很多开发中的常用功能比如开发服务器，比如集成了babel<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
-
-<h3 id="与npm的互动">与npm的互动</h3>
+<p><img src="/assets/images/zh-js-async-1.png" alt="示意图" /></p>
 
 <blockquote>
-  <p>webpack是webpack自带的一条打包命令，是最基本的打包命令。
-npm run webpack，则是在package.json文件中有一个script配置项，在这个script里面自定义的一条命令，它通过npm来运行。例如：</p>
-  <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nl">"scripts"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-   </span><span class="nl">"start"</span><span class="p">:</span><span class="w"> </span><span class="s2">"webpack"</span><span class="p">,</span><span class="w">
-   </span><span class="nl">"server"</span><span class="p">:</span><span class="w"> </span><span class="s2">"webpack-dev-server --open"</span><span class="p">,</span><span class="w">
-   </span><span class="nl">"build"</span><span class="p">:</span><span class="w"> </span><span class="s2">"set NODE_ENV=production &amp;&amp; webpack --config ./webpack.production.config.js --progress"</span><span class="w">
-</span><span class="p">}</span><span class="err">,</span><span class="w">
-</span></code></pre></div>  </div>
-  <p>当脚本名为“start”时，可以省略“run”，直接为：</p>
-  <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm start
-</code></pre></div>  </div>
-  <p>作者：差很多先生CL
-链接：https://www.jianshu.com/p/7642746b021a</p>
+  <p>那么异步Ajax是怎么回事呢？一个常用的开发实践就是发起一个异步的Ajax，界面显示一个进度条样式的Gif，说好的单线程呢？事实上异步&gt;Ajax确实用了多线程，只是Ajax请求的Http连接部分由浏览器另外开了一个线程执行，执行完毕之后给JS引擎发送一个事件，这时候异步请&gt;求的回调代码得以执行。它的执行流程是这样的：</p>
+
+  <p>Http请求的执行在另外一个线程中，由于这个线程并不会操作DOM树，所以是可以保证线程安全的。发起Ajax请求和回调函数中间是没有JS执行的，所以页面不会卡死。
+作者：ma_fighting
+链接：<a href="https://www.cnblogs.com/mafeng/p/6292534.html">https://www.cnblogs.com/mafeng/p/6292534.html</a></p>
 </blockquote>
+
+<p>另外浏览器对于事件的监听也是有单独的线程</p>
+
+<h2 id="2-promise是什么">2. promise是什么</h2>
+
+<blockquote>
+  <p>我们通过new关键字和Promise构造器创建它的对象。这个构造器接受一个名为”executor function”的函数。这个函数应当接受两个函数参数。当异步任务成功时，第一个函数（resolve）将被调用，并返回一个值代表成功。当其失败时，第二个函数（reject）将被调用，并返回失败原因（失败原因通常是一个error对象）。</p>
+
+  <p>例子：</p>
+
+  <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">myAsyncFunction</span><span class="p">(</span><span class="nx">url</span><span class="p">)</span> <span class="p">{</span>
+ <span class="k">return</span> <span class="k">new</span> <span class="nb">Promise</span><span class="p">((</span><span class="nx">resolve</span><span class="p">,</span> <span class="nx">reject</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+   <span class="kd">const</span> <span class="nx">xhr</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">XMLHttpRequest</span><span class="p">()</span>
+   <span class="nx">xhr</span><span class="p">.</span><span class="nx">open</span><span class="p">(</span><span class="dl">"</span><span class="s2">GET</span><span class="dl">"</span><span class="p">,</span> <span class="nx">url</span><span class="p">)</span>
+   <span class="nx">xhr</span><span class="p">.</span><span class="nx">onload</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="nx">resolve</span><span class="p">(</span><span class="nx">xhr</span><span class="p">.</span><span class="nx">responseText</span><span class="p">)</span>
+   <span class="nx">xhr</span><span class="p">.</span><span class="nx">onerror</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="nx">reject</span><span class="p">(</span><span class="nx">xhr</span><span class="p">.</span><span class="nx">statusText</span><span class="p">)</span>
+   <span class="nx">xhr</span><span class="p">.</span><span class="nx">send</span><span class="p">()</span>
+ <span class="p">});</span>
+<span class="p">}</span>
+</code></pre></div>  </div>
+  <p>作者：MDN docs
+链接：<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/Promise">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/Promise</a></p>
+</blockquote>
+
+<h2 id="3-利用settimeout实现自己的简单promise源码">3. 利用setTimeout实现自己的简单promise（源码）</h2>
+
+<h3 id="源码出处后盾人教程">源码出处：<a href="https://www.bilibili.com/video/BV137411e7KA?from=search&amp;seid=3948419975474208834">后盾人教程</a></h3>
+
+<p>源码作者：后盾人教程-向军老师
+官网：<a href="https://www.houdunren.com/">https://www.houdunren.com/</a></p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nx">HD</span><span class="p">{</span>
+    <span class="kd">static</span> <span class="nx">PENDING</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">pending</span><span class="dl">'</span><span class="p">;</span>
+    <span class="kd">static</span> <span class="nx">FUFILLED</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">fulfilled</span><span class="dl">'</span><span class="p">;</span>
+    <span class="kd">static</span> <span class="nx">REJECTED</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">rejected</span><span class="dl">'</span><span class="p">;</span>
+    <span class="kd">constructor</span><span class="p">(</span><span class="nx">executor</span><span class="p">){</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">status</span> <span class="o">=</span> <span class="nx">HD</span><span class="p">.</span><span class="nx">PENDING</span><span class="p">;</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">value</span> <span class="o">=</span> <span class="kc">null</span><span class="p">;</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">callbacks</span> <span class="o">=</span> <span class="p">[];</span>
+        <span class="k">try</span><span class="p">{</span>
+            <span class="nx">executor</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">resolve</span><span class="p">.</span><span class="nx">bind</span><span class="p">(</span><span class="k">this</span><span class="p">),</span> <span class="k">this</span><span class="p">.</span><span class="nx">reject</span><span class="p">.</span><span class="nx">bind</span><span class="p">(</span><span class="k">this</span><span class="p">));</span>
+        <span class="p">}</span><span class="k">catch</span><span class="p">(</span><span class="nx">error</span><span class="p">){</span>
+            <span class="k">this</span><span class="p">.</span><span class="nx">reject</span><span class="p">(</span><span class="nx">error</span><span class="p">);</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="nx">resolve</span><span class="p">(</span><span class="nx">value</span><span class="p">){</span>
+        <span class="k">if</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">status</span> <span class="o">===</span> <span class="nx">HD</span><span class="p">.</span><span class="nx">PENDING</span><span class="p">){</span>
+            <span class="k">this</span><span class="p">.</span><span class="nx">status</span> <span class="o">=</span> <span class="nx">HD</span><span class="p">.</span><span class="nx">FUFILLED</span><span class="p">;</span>
+            <span class="k">this</span><span class="p">.</span><span class="nx">value</span> <span class="o">=</span> <span class="nx">value</span><span class="p">;</span>
+            <span class="c1">// this.callbacks.map(callback =&gt; {</span>
+            
+            <span class="c1">// })</span>
+            <span class="k">if</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">callbacks</span><span class="p">.</span><span class="nx">length</span> <span class="o">!==</span> <span class="mi">0</span><span class="p">){</span>
+                <span class="nx">setTimeout</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+                    <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">callbacks</span><span class="p">)[</span><span class="mi">0</span><span class="p">](</span><span class="k">this</span><span class="p">.</span><span class="nx">value</span><span class="p">);</span>                
+                <span class="p">});</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="nx">reject</span><span class="p">(</span><span class="nx">reason</span><span class="p">){</span>
+        <span class="k">if</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">status</span> <span class="o">===</span> <span class="nx">HD</span><span class="p">.</span><span class="nx">PENDING</span><span class="p">){</span>
+            <span class="k">this</span><span class="p">.</span><span class="nx">status</span> <span class="o">=</span> <span class="nx">HD</span><span class="p">.</span><span class="nx">REJECTED</span><span class="p">;</span>
+            <span class="k">this</span><span class="p">.</span><span class="nx">value</span> <span class="o">=</span> <span class="nx">reason</span><span class="p">;</span>
+            <span class="k">if</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">callbacks</span><span class="p">.</span><span class="nx">length</span> <span class="o">!==</span> <span class="mi">0</span><span class="p">){</span>
+                <span class="nx">setTimeout</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+                    <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">callbacks</span><span class="p">)[</span><span class="mi">1</span><span class="p">](</span><span class="k">this</span><span class="p">.</span><span class="nx">value</span><span class="p">);</span>
+                <span class="p">});</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="nx">then</span><span class="p">(</span><span class="nx">onFufilled</span><span class="p">,</span> <span class="nx">onRejected</span><span class="p">){</span>
+        <span class="k">if</span><span class="p">(</span><span class="k">typeof</span> <span class="nx">onFufilled</span> <span class="o">!==</span> <span class="dl">'</span><span class="s1">function</span><span class="dl">'</span><span class="p">){</span>
+            <span class="nx">onFufilled</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+                <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">value</span><span class="p">;</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+        <span class="k">if</span><span class="p">(</span><span class="k">typeof</span> <span class="nx">onRejected</span> <span class="o">!==</span> <span class="dl">'</span><span class="s1">function</span><span class="dl">'</span><span class="p">){</span>
+            <span class="nx">onRejected</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="k">this</span><span class="p">.</span><span class="nx">value</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="kd">let</span> <span class="nx">p</span> <span class="o">=</span>  <span class="k">new</span> <span class="nx">HD</span><span class="p">((</span><span class="nx">resolve</span><span class="p">,</span><span class="nx">reject</span><span class="p">)</span> <span class="o">=&gt;</span><span class="p">{</span>
+            <span class="k">if</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">status</span> <span class="o">===</span> <span class="nx">HD</span><span class="p">.</span><span class="nx">PENDING</span><span class="p">){</span>
+                <span class="c1">// this.callbacks.push(</span>
+                <span class="c1">//     {onFufilled, onRejected}</span>
+                <span class="c1">// )</span>
+                <span class="k">this</span><span class="p">.</span><span class="nx">callbacks</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span>
+                    <span class="nx">value</span> <span class="o">=&gt;</span> <span class="p">{</span>
+                        <span class="k">this</span><span class="p">.</span><span class="nx">parse</span><span class="p">(</span><span class="nx">p</span><span class="p">,</span><span class="nx">onFufilled</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">value</span><span class="p">),</span><span class="nx">resolve</span><span class="p">,</span><span class="nx">reject</span><span class="p">);</span>
+                    <span class="p">},</span> 
+                    <span class="nx">reason</span> <span class="o">=&gt;</span> <span class="p">{</span>
+                        <span class="k">this</span><span class="p">.</span><span class="nx">parse</span><span class="p">(</span><span class="nx">p</span><span class="p">,</span><span class="nx">onRejected</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">value</span><span class="p">),</span><span class="nx">resolve</span><span class="p">,</span><span class="nx">reject</span><span class="p">)</span>
+                    <span class="p">}</span>
+                <span class="c1">// console.log(this.callbacks.length)</span>
+                <span class="p">);</span>
+            <span class="p">}</span>
+            <span class="k">if</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">status</span> <span class="o">===</span> <span class="nx">HD</span><span class="p">.</span><span class="nx">FUFILLED</span><span class="p">){</span>
+                <span class="nx">setTimeout</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+                    <span class="k">this</span><span class="p">.</span><span class="nx">parse</span><span class="p">(</span><span class="nx">p</span><span class="p">,</span><span class="nx">onFufilled</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">value</span><span class="p">),</span><span class="nx">resolve</span><span class="p">,</span><span class="nx">reject</span><span class="p">);</span>
+                <span class="p">});</span>
+            <span class="p">}</span>
+            <span class="k">if</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">status</span> <span class="o">===</span> <span class="nx">HD</span><span class="p">.</span><span class="nx">REJECTED</span><span class="p">){</span>
+                <span class="nx">setTimeout</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+                    <span class="k">this</span><span class="p">.</span><span class="nx">parse</span><span class="p">(</span><span class="nx">p</span><span class="p">,</span><span class="nx">onRejected</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">value</span><span class="p">),</span><span class="nx">resolve</span><span class="p">,</span><span class="nx">reject</span><span class="p">)</span>
+                <span class="p">});</span>
+            <span class="p">}</span>
+        <span class="p">});</span>
+        <span class="k">return</span> <span class="nx">p</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="nx">parse</span><span class="p">(</span><span class="nx">p</span><span class="p">,</span><span class="nx">result</span><span class="p">,</span><span class="nx">resolve</span><span class="p">,</span><span class="nx">reject</span><span class="p">){</span>
+        <span class="k">if</span><span class="p">(</span><span class="nx">p</span> <span class="o">===</span> <span class="nx">result</span><span class="p">){</span>
+            <span class="c1">// console.log(p);</span>
+            <span class="c1">// try {</span>
+                <span class="k">throw</span> <span class="k">new</span> <span class="nx">TypeError</span><span class="p">(</span><span class="dl">'</span><span class="s1">Chaining cycle detected</span><span class="dl">'</span><span class="p">);</span>
+            <span class="c1">// } catch (error) {</span>
+            <span class="c1">//     reject(error);</span>
+            <span class="c1">// }</span>
+        <span class="p">}</span>
+        <span class="k">try</span> <span class="p">{</span>
+            <span class="k">if</span><span class="p">(</span><span class="nx">result</span> <span class="k">instanceof</span> <span class="nx">HD</span><span class="p">){</span>
+                <span class="nx">result</span><span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">resolve</span><span class="p">,</span><span class="nx">reject</span><span class="p">);</span>
+            <span class="p">}</span><span class="k">else</span><span class="p">{</span>
+                <span class="nx">resolve</span><span class="p">(</span><span class="nx">result</span><span class="p">);</span>
+            <span class="p">}</span>              
+        <span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">error</span><span class="p">)</span> <span class="p">{</span>
+            <span class="nx">reject</span><span class="p">(</span><span class="nx">error</span><span class="p">);</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="kd">static</span> <span class="nx">resolve</span><span class="p">(</span><span class="nx">value</span><span class="p">){</span>
+        <span class="k">return</span> <span class="k">new</span> <span class="nx">HD</span><span class="p">((</span><span class="nx">resolve</span><span class="p">,</span> <span class="nx">reject</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+            <span class="k">if</span><span class="p">(</span><span class="nx">value</span> <span class="k">instanceof</span> <span class="nx">HD</span><span class="p">){</span>
+                <span class="nx">value</span><span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">resolve</span><span class="p">,</span><span class="nx">reject</span><span class="p">);</span>
+            <span class="p">}</span><span class="k">else</span><span class="p">{</span>
+                <span class="nx">resolve</span><span class="p">(</span><span class="nx">value</span><span class="p">);</span>
+            <span class="p">}</span>
+        <span class="p">});</span>
+    <span class="p">}</span>
+    <span class="kd">static</span> <span class="nx">reject</span><span class="p">(</span><span class="nx">value</span><span class="p">){</span>
+        <span class="k">return</span> <span class="k">new</span> <span class="nx">HD</span><span class="p">((</span><span class="nx">resolve</span><span class="p">,</span> <span class="nx">reject</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+                <span class="nx">reject</span><span class="p">(</span><span class="nx">value</span><span class="p">);</span>
+        <span class="p">});</span>
+    <span class="p">}</span>
+    <span class="kd">static</span> <span class="nx">all</span><span class="p">(</span><span class="nx">promises</span><span class="p">){</span>
+        <span class="k">return</span> <span class="k">new</span> <span class="nx">HD</span><span class="p">((</span><span class="nx">resolve</span><span class="p">,</span><span class="nx">reject</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+            <span class="kd">const</span> <span class="nx">values</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="nx">promises</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="nx">promise</span> <span class="o">=&gt;</span> <span class="p">{</span>
+                <span class="nx">promise</span><span class="p">.</span><span class="nx">then</span><span class="p">(</span>
+                    <span class="nx">value</span> <span class="o">=&gt;</span> <span class="p">{</span>
+                        <span class="nx">values</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">value</span><span class="p">);</span>
+                        <span class="k">if</span><span class="p">(</span><span class="nx">values</span><span class="p">.</span><span class="nx">length</span> <span class="o">===</span> <span class="nx">promises</span><span class="p">.</span><span class="nx">length</span><span class="p">){</span>
+                            <span class="nx">resolve</span><span class="p">(</span><span class="nx">values</span><span class="p">);</span>
+                        <span class="p">}</span>
+                    <span class="p">},</span>
+                    <span class="nx">reason</span> <span class="o">=&gt;</span><span class="p">{</span>
+                        <span class="nx">reject</span><span class="p">(</span><span class="nx">reason</span><span class="p">);</span>
+                    <span class="p">}</span>
+                <span class="p">);</span>
+            <span class="p">});</span>
+        <span class="p">});</span>
+    <span class="p">}</span>
+    <span class="kd">static</span> <span class="nx">race</span><span class="p">(</span><span class="nx">promises</span><span class="p">){</span>
+        <span class="k">return</span> <span class="k">new</span> <span class="nx">HD</span><span class="p">((</span><span class="nx">resolve</span><span class="p">,</span><span class="nx">reject</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+            <span class="nx">promises</span>
+        <span class="p">});</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+<span class="c1">// // new Promise((resolve,reject)=&gt;{</span>
+<span class="c1">// resolve('resolved')</span>
+<span class="c1">// reject('rejected')</span>
+<span class="c1">// // })</span>
+</code></pre></div></div>
+
+<h3 id="注意">注意：</h3>
+<p>this.resolve.bind(this)中bind(this)的用处是改变this指向，因为创建promise对象的时候会调用constructor，此时的this即是我们手写的promise对象，会将这个函数的caller指向本次创建的promise对象，如果不bind，resolve函数在当作参数传递时会丢失执行上下文，导致this指向是window而不是promise对象</p>
+
+<p>箭头函数没有this问题，箭头函数可以捕获创建时的this，这里不得不用非匿名函数因为需要后续调用</p>
+
+<p>更多内容可以参考Function.prototype.apply()，Function.prototype.call()，以及箭头函数</p>
 
 <h2 id="扩展阅读">扩展阅读：</h2>
 
 <ol>
-  <li>npm-install：<a href="https://docs.npmjs.com/cli/v7/commands/npm-install">https://docs.npmjs.com/cli/v7/commands/npm-install</a></li>
-  <li>webpack npm start和npm run server：<a href="https://www.jianshu.com/p/7642746b021a">https://www.jianshu.com/p/7642746b021a</a></li>
-  <li>一口（很长的）气了解 babel：<a href="https://zhuanlan.zhihu.com/p/43249121">https://zhuanlan.zhihu.com/p/43249121</a></li>
-  <li>Node.js 中的依赖管理：<a href="https://zhuanlan.zhihu.com/p/56002037">https://zhuanlan.zhihu.com/p/56002037</a></li>
-  <li>package.json 文件详解：<a href="https://blog.csdn.net/weixin_44135121/article/details/91674772">https://blog.csdn.net/weixin_44135121/article/details/91674772</a></li>
+  <li>Promise() constructor：<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/Promise">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/Promise</a></li>
+  <li>Function.prototype.apply()：<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply</a></li>
+  <li>Function.prototype.call()：<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call</a></li>
+  <li>Arrow function expressions：<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arrow_functions">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arrow_functions</a></li>
+  <li>手写promise视频-b站：<a href="https://www.bilibili.com/video/BV137411e7KA?from=search&amp;seid=3948419975474208834">https://www.bilibili.com/video/BV137411e7KA?from=search&amp;seid=3948419975474208834</a></li>
+  <li>前端面试系列-JavaScript-箭头函数(与普通函数的区别): <a href="https://blog.csdn.net/qq_39903567/article/details/115208019">https://blog.csdn.net/qq_39903567/article/details/115208019</a></li>
 </ol>
 
 <p>如有侵权联系删除</p>
-
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>babel可以将ES6 ，ES5等更新语法转换成兼容性更强的老语法，实现对旧版浏览器的兼容 <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
 
     </div>
     <p style="color: var(--color-auto-blue-5)">

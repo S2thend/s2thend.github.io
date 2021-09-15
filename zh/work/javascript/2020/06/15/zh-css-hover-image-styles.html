@@ -2,26 +2,26 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>前端开发基础知识-常用工具</title>
+    <title>一些css图片hover特效</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Your awesome title" />
     <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>前端开发基础知识-常用工具 | Your awesome title</title>
+<title>一些css图片hover特效 | Your awesome title</title>
 <meta name="generator" content="Jekyll v4.2.0" />
-<meta property="og:title" content="前端开发基础知识-常用工具" />
+<meta property="og:title" content="一些css图片hover特效" />
 <meta name="author" content="Cai Borui" />
 <meta property="og:locale" content="zh" />
-<meta name="description" content="1. package.json是什么" />
-<meta property="og:description" content="1. package.json是什么" />
-<link rel="canonical" href="/zh/work/javascript/2020/06/02/zh-web-dev-basic-tools.html" />
-<meta property="og:url" content="/zh/work/javascript/2020/06/02/zh-web-dev-basic-tools.html" />
+<meta name="description" content="1. hover图片缩放效果 .image-hover{ //这个transition是unhover以后也平滑过渡的关键 transition: all 1s linear; overflow: hidden; } //这个类名嵌套是保证hover父元素时让子元素放大的关键 .image-hover-parent:hover .image-hover{ transform: scale(1.1); transition: transform 1.5s; }" />
+<meta property="og:description" content="1. hover图片缩放效果 .image-hover{ //这个transition是unhover以后也平滑过渡的关键 transition: all 1s linear; overflow: hidden; } //这个类名嵌套是保证hover父元素时让子元素放大的关键 .image-hover-parent:hover .image-hover{ transform: scale(1.1); transition: transform 1.5s; }" />
+<link rel="canonical" href="/zh/work/javascript/2020/06/15/zh-css-hover-image-styles.html" />
+<meta property="og:url" content="/zh/work/javascript/2020/06/15/zh-css-hover-image-styles.html" />
 <meta property="og:site_name" content="Your awesome title" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-06-02T00:43:26+08:00" />
+<meta property="article:published_time" content="2020-06-15T00:43:26+08:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="前端开发基础知识-常用工具" />
+<meta property="twitter:title" content="一些css图片hover特效" />
 <script type="application/ld+json">
-{"author":{"@type":"Person","name":"Cai Borui"},"@type":"BlogPosting","headline":"前端开发基础知识-常用工具","dateModified":"2020-06-02T00:43:26+08:00","datePublished":"2020-06-02T00:43:26+08:00","description":"1. package.json是什么","url":"/zh/work/javascript/2020/06/02/zh-web-dev-basic-tools.html","mainEntityOfPage":{"@type":"WebPage","@id":"/zh/work/javascript/2020/06/02/zh-web-dev-basic-tools.html"},"@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"Cai Borui"},"@type":"BlogPosting","headline":"一些css图片hover特效","dateModified":"2020-06-15T00:43:26+08:00","datePublished":"2020-06-15T00:43:26+08:00","description":"1. hover图片缩放效果 .image-hover{ //这个transition是unhover以后也平滑过渡的关键 transition: all 1s linear; overflow: hidden; } //这个类名嵌套是保证hover父元素时让子元素放大的关键 .image-hover-parent:hover .image-hover{ transform: scale(1.1); transition: transform 1.5s; }","url":"/zh/work/javascript/2020/06/15/zh-css-hover-image-styles.html","mainEntityOfPage":{"@type":"WebPage","@id":"/zh/work/javascript/2020/06/15/zh-css-hover-image-styles.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     <link href="/assets/css/primer.css" rel="stylesheet" />
@@ -134,75 +134,136 @@
     <div style="min-height: 87vh;">
 
   <div class="markdown-body col-sm-12 col-md-10 mx-auto">
-    <h1>前端开发基础知识-常用工具</h1>
+    <h1>一些css图片hover特效</h1>
     
     <p>
-      02 Jun 2020
+      15 Jun 2020
       
       
     </p>
     <div>
-        <h2 id="1-packagejson是什么">1. package.json是什么</h2>
+        <h2 id="1-hover图片缩放效果">1. hover图片缩放效果</h2>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.image-hover</span><span class="p">{</span>
+ 	<span class="err">//这个transition是unhover以后也平滑过渡的关键</span>
+  <span class="nl">transition</span><span class="p">:</span> <span class="n">all</span> <span class="m">1s</span> <span class="n">linear</span><span class="p">;</span>
+  <span class="nl">overflow</span><span class="p">:</span> <span class="nb">hidden</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="o">//</span><span class="nt">这个类名嵌套是保证hover父元素时让子元素放大的关键</span>
+<span class="nc">.image-hover-parent</span><span class="nd">:hover</span> <span class="nc">.image-hover</span><span class="p">{</span>
+  <span class="nl">transform</span><span class="p">:</span> <span class="n">scale</span><span class="p">(</span><span class="m">1.1</span><span class="p">);</span>
+  <span class="nl">transition</span><span class="p">:</span> <span class="n">transform</span> <span class="m">1.5s</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
 
-<p>就像java里面的maven包管理工具的pom.xml和gem的gemfile，package.json是node.js的包管理工具npm的配置文件</p>
+<h2 id="2-hover图片深色半透明遮罩效果">2. hover图片深色半透明遮罩效果</h2>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.featured-image</span><span class="nd">:hover</span> <span class="p">{</span>
+  <span class="nl">-webkit-filter</span><span class="p">:</span> <span class="n">brightness</span><span class="p">(</span><span class="m">50%</span><span class="p">);</span> <span class="c">/*考虑浏览器兼容性：兼容 Chrome, Safari, Opera */</span>
+  <span class="nl">filter</span><span class="p">:</span> <span class="n">brightness</span><span class="p">(</span><span class="m">50%</span><span class="p">);</span>
+  <span class="c">/* 设置图片的亮度，使其看起来更亮或更暗。如果值是0%，图像会全黑；值是100%，则图像无变化；
+  值是100%以上，则图像更亮*/</span>
+<span class="p">}</span>
+</code></pre></div></div>
 
-<h3 id="常用举例">常用举例：</h3>
+<h2 id="3-hover文字两边飞入特效">3. hover文字两边飞入特效</h2>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+    <span class="nt">&lt;head&gt;</span>
+        <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;title&gt;</span>左右淡入的企业介绍<span class="nt">&lt;/title&gt;</span>
+        <span class="nt">&lt;link</span> <span class="na">type=</span><span class="s">"text/css"</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"css/animate.css"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;style&gt;</span>
+            <span class="nt">body</span><span class="p">{</span>
+                <span class="nl">overflow</span><span class="p">:</span> <span class="nb">hidden</span><span class="p">;</span>  <span class="c">/*此处需要设置溢出隐藏，否则文字起始位移超过页面大小就会在页面下方出现横的滚动条*/</span>
+            <span class="p">}</span>
+            <span class="nc">.company</span><span class="p">{</span>
+                <span class="nl">width</span><span class="p">:</span> <span class="m">400px</span><span class="p">;</span>
+                <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="nb">auto</span><span class="p">;</span>
+                <span class="nl">border</span><span class="p">:</span> <span class="m">1px</span> <span class="m">#999999</span> <span class="nb">solid</span><span class="p">;</span>
+            <span class="p">}</span>
+            
+            <span class="c">/*定义一个名字为lefteaseinAnimate动画，实现从页面的左边淡入页面效果*/</span>
+            <span class="k">@keyframes</span> <span class="n">lefteaseinAnimate</span><span class="p">{</span>
+                <span class="err">0</span><span class="o">%</span><span class="p">{</span> <span class="nl">transform</span><span class="p">:</span> <span class="n">translateX</span><span class="p">(</span><span class="m">-2000px</span><span class="p">);</span> <span class="nl">opacity</span><span class="p">:</span> <span class="m">0</span><span class="p">;}</span>   <span class="c">/*在0%时设置文字在想X轴-2000px位移处（左边），透明度为0，也就是看不见文字*/</span>
+                <span class="err">100</span><span class="o">%</span><span class="p">{</span> <span class="nl">transform</span><span class="p">:</span> <span class="n">translateX</span><span class="p">(</span><span class="m">0px</span><span class="p">);</span> <span class="nl">opacity</span><span class="p">:</span> <span class="m">1</span><span class="p">;}</span>         <span class="c">/*在100%时设置文字在想X轴0px位移处，也就是原始布局的位置，透明度为1，也就是文字可以看见了*/</span>
+            <span class="p">}</span>
+            <span class="k">@-webkit-keyframes</span> <span class="n">lefteaseinAnimate</span><span class="p">{</span>
+                <span class="err">0</span><span class="o">%</span><span class="p">{</span> <span class="nl">-webkit-transform</span><span class="p">:</span> <span class="n">translateX</span><span class="p">(</span><span class="m">-2000px</span><span class="p">);</span> <span class="nl">opacity</span><span class="p">:</span> <span class="m">0</span><span class="p">;}</span>
+                <span class="err">100</span><span class="o">%</span><span class="p">{</span> <span class="nl">-webkit-transform</span><span class="p">:</span> <span class="n">translateX</span><span class="p">(</span><span class="m">0px</span><span class="p">);</span> <span class="nl">opacity</span><span class="p">:</span> <span class="m">1</span><span class="p">;}</span>
+            <span class="p">}</span>
+            <span class="k">@-o-keyframes</span> <span class="n">lefteaseinAnimate</span><span class="p">{</span>
+                <span class="err">0</span><span class="o">%</span><span class="p">{</span> <span class="nl">-webkit-transform</span><span class="p">:</span> <span class="n">translateX</span><span class="p">(</span><span class="m">-2000px</span><span class="p">);</span> <span class="nl">opacity</span><span class="p">:</span> <span class="m">0</span><span class="p">;}</span>
+                <span class="err">100</span><span class="o">%</span><span class="p">{</span> <span class="nl">-webkit-transform</span><span class="p">:</span> <span class="n">translateX</span><span class="p">(</span><span class="m">0px</span><span class="p">);</span> <span class="nl">opacity</span><span class="p">:</span> <span class="m">1</span><span class="p">;}</span>
+            <span class="p">}</span>
+            <span class="k">@-ms-keyframes</span> <span class="n">lefteaseinAnimate</span><span class="p">{</span>
+                <span class="err">0</span><span class="o">%</span><span class="p">{</span> <span class="nl">-webkit-transform</span><span class="p">:</span> <span class="n">translateX</span><span class="p">(</span><span class="m">-2000px</span><span class="p">);</span> <span class="nl">opacity</span><span class="p">:</span> <span class="m">0</span><span class="p">;}</span>
+                <span class="err">100</span><span class="o">%</span><span class="p">{</span> <span class="nl">-webkit-transform</span><span class="p">:</span> <span class="n">translateX</span><span class="p">(</span><span class="m">0px</span><span class="p">);</span> <span class="nl">opacity</span><span class="p">:</span> <span class="m">1</span><span class="p">;}</span>
+            <span class="p">}</span>
+            <span class="k">@-moz-keyframes</span> <span class="n">lefteaseinAnimate</span><span class="p">{</span>
+                <span class="err">0</span><span class="o">%</span><span class="p">{</span> <span class="nl">-webkit-transform</span><span class="p">:</span> <span class="n">translateX</span><span class="p">(</span><span class="m">-2000px</span><span class="p">);</span> <span class="nl">opacity</span><span class="p">:</span> <span class="m">0</span><span class="p">;}</span>
+                <span class="err">100</span><span class="o">%</span><span class="p">{</span> <span class="nl">-webkit-transform</span><span class="p">:</span> <span class="n">translateX</span><span class="p">(</span><span class="m">0px</span><span class="p">);</span> <span class="nl">opacity</span><span class="p">:</span> <span class="m">1</span><span class="p">;}</span>
+            <span class="p">}</span>
+            <span class="nc">.company_name</span><span class="p">{</span>
+                <span class="nl">animation</span><span class="p">:</span> <span class="n">lefteaseinAnimate</span> <span class="m">1s</span> <span class="n">ease</span> <span class="m">1</span><span class="p">;</span>    <span class="c">/*调用已定义好的动画lefteaseinAnimate，全程运行时间1S，进入的速度曲线为ease，只播放一次*/</span>
+                <span class="nl">-webkit-animation</span><span class="p">:</span> <span class="n">lefteaseinAnimate</span> <span class="m">1s</span> <span class="n">ease</span> <span class="m">1</span><span class="p">;</span>
+                <span class="nl">-ms-animation</span><span class="p">:</span> <span class="n">lefteaseinAnimate</span> <span class="m">1s</span> <span class="n">ease</span> <span class="m">1</span><span class="p">;</span>
+                <span class="nl">-o-animation</span><span class="p">:</span> <span class="n">lefteaseinAnimate</span> <span class="m">1s</span> <span class="n">ease</span> <span class="m">1</span><span class="p">;</span>
+                <span class="nl">-moz-animation</span><span class="p">:</span> <span class="n">lefteaseinAnimate</span> <span class="m">1s</span> <span class="n">ease</span> <span class="m">1</span><span class="p">;</span>
+            
+                <span class="c">/*规定动画的最后状态为结束状态*/</span>
+                <span class="nl">animation-fill-mode</span><span class="p">:</span><span class="n">forwards</span><span class="p">;</span>
+                <span class="nl">-webkit-animation-fill-mode</span><span class="p">:</span> <span class="n">forwards</span><span class="p">;</span>
+                <span class="nl">-o-animation-fill-mode</span><span class="p">:</span> <span class="n">forwards</span><span class="p">;</span>
+                <span class="nl">-ms-animation-fill-mode</span><span class="p">:</span> <span class="n">forwards</span><span class="p">;</span>
+                <span class="nl">-moz-animation-fill-mode</span><span class="p">:</span> <span class="n">forwards</span><span class="p">;</span>
+            <span class="p">}</span>
+            
+            <span class="c">/*定义一个名字为righteaseinAnimate动画，实现从页面的右边淡入页面效果*/</span>
+            <span class="k">@keyframes</span> <span class="n">righteaseinAnimate</span><span class="p">{</span>
+                <span class="err">0</span><span class="o">%</span><span class="p">{</span> <span class="nl">transform</span><span class="p">:</span> <span class="n">translateX</span><span class="p">(</span><span class="m">2000px</span><span class="p">);</span> <span class="nl">opacity</span><span class="p">:</span> <span class="m">0</span><span class="p">;}</span>   <span class="c">/*在0%时设置文字在想X轴2000px位移处（右边），透明度为0，也就是看不见文字*/</span>
+                <span class="err">100</span><span class="o">%</span><span class="p">{</span> <span class="nl">transform</span><span class="p">:</span> <span class="n">translateX</span><span class="p">(</span><span class="m">0px</span><span class="p">);</span> <span class="nl">opacity</span><span class="p">:</span> <span class="m">1</span><span class="p">;}</span>      <span class="c">/*在100%时设置文字在想X轴0px位移处，也就是原始布局的位置，透明度为1，也就是文字可以看见了*/</span>
+            <span class="p">}</span>
+            <span class="k">@-webkit-keyframes</span> <span class="n">righteaseinAnimate</span><span class="p">{</span>
+                <span class="err">0</span><span class="o">%</span><span class="p">{</span> <span class="nl">-webkit-transform</span><span class="p">:</span> <span class="n">translateX</span><span class="p">(</span><span class="m">2000px</span><span class="p">);</span> <span class="nl">opacity</span><span class="p">:</span> <span class="m">0</span><span class="p">;}</span>
+                <span class="err">100</span><span class="o">%</span><span class="p">{</span> <span class="nl">-webkit-transform</span><span class="p">:</span> <span class="n">translateX</span><span class="p">(</span><span class="m">0px</span><span class="p">);</span> <span class="nl">opacity</span><span class="p">:</span> <span class="m">1</span><span class="p">;}</span>
+            <span class="p">}</span>
+            <span class="k">@-o-keyframes</span> <span class="n">righteaseinAnimate</span><span class="p">{</span>
+                <span class="err">0</span><span class="o">%</span><span class="p">{</span> <span class="nl">-webkit-transform</span><span class="p">:</span> <span class="n">translateX</span><span class="p">(</span><span class="m">2000px</span><span class="p">);</span> <span class="nl">opacity</span><span class="p">:</span> <span class="m">0</span><span class="p">;}</span>
+                <span class="err">100</span><span class="o">%</span><span class="p">{</span> <span class="nl">-webkit-transform</span><span class="p">:</span> <span class="n">translateX</span><span class="p">(</span><span class="m">0px</span><span class="p">);</span> <span class="nl">opacity</span><span class="p">:</span> <span class="m">1</span><span class="p">;}</span>
+            <span class="p">}</span>
+            <span class="k">@-ms-keyframes</span> <span class="n">righteaseinAnimate</span><span class="p">{</span>
+                <span class="err">0</span><span class="o">%</span><span class="p">{</span> <span class="nl">-webkit-transform</span><span class="p">:</span> <span class="n">translateX</span><span class="p">(</span><span class="m">2000px</span><span class="p">);</span> <span class="nl">opacity</span><span class="p">:</span> <span class="m">0</span><span class="p">;}</span>
+                <span class="err">100</span><span class="o">%</span><span class="p">{</span> <span class="nl">-webkit-transform</span><span class="p">:</span> <span class="n">translateX</span><span class="p">(</span><span class="m">0px</span><span class="p">);</span> <span class="nl">opacity</span><span class="p">:</span> <span class="m">1</span><span class="p">;}</span>
+            <span class="p">}</span>
+            <span class="k">@-moz-keyframes</span> <span class="n">righteaseinAnimate</span><span class="p">{</span>
+                <span class="err">0</span><span class="o">%</span><span class="p">{</span> <span class="nl">-webkit-transform</span><span class="p">:</span> <span class="n">translateX</span><span class="p">(</span><span class="m">2000px</span><span class="p">);</span> <span class="nl">opacity</span><span class="p">:</span> <span class="m">0</span><span class="p">;}</span>
+                <span class="err">100</span><span class="o">%</span><span class="p">{</span> <span class="nl">-webkit-transform</span><span class="p">:</span> <span class="n">translateX</span><span class="p">(</span><span class="m">0px</span><span class="p">);</span> <span class="nl">opacity</span><span class="p">:</span> <span class="m">1</span><span class="p">;}</span>
+            <span class="p">}</span>
+            <span class="nc">.company_introduce</span><span class="p">{</span>
+                <span class="nl">animation</span><span class="p">:</span> <span class="n">righteaseinAnimate</span> <span class="m">1s</span> <span class="n">ease</span> <span class="m">1</span><span class="p">;</span>    <span class="c">/*调用已定义好的动画righteaseinAnimate，全程运行时间1S，进入的速度曲线为ease，只播放一次*/</span>
+                <span class="nl">-webkit-animation</span><span class="p">:</span> <span class="n">righteaseinAnimate</span> <span class="m">1s</span> <span class="n">ease</span> <span class="m">1</span><span class="p">;</span>
+                <span class="nl">-moz-animation</span><span class="p">:</span> <span class="n">righteaseinAnimate</span> <span class="m">1s</span> <span class="n">ease</span> <span class="m">1</span><span class="p">;</span>
+                <span class="nl">-ms-animation</span><span class="p">:</span> <span class="n">righteaseinAnimate</span> <span class="m">1s</span> <span class="n">ease</span> <span class="m">1</span><span class="p">;</span>
+                <span class="nl">-o-animation</span><span class="p">:</span> <span class="n">righteaseinAnimate</span> <span class="m">1s</span> <span class="n">ease</span> <span class="m">1</span><span class="p">;</span>
+            
+                <span class="c">/*规定动画的最后状态为结束状态*/</span>
+                <span class="nl">animation-fill-mode</span><span class="p">:</span><span class="n">forwards</span><span class="p">;</span>
+                <span class="nl">-webkit-animation-fill-mode</span><span class="p">:</span> <span class="n">forwards</span><span class="p">;</span>
+                <span class="nl">-o-animation-fill-mode</span><span class="p">:</span> <span class="n">forwards</span><span class="p">;</span>
+                <span class="nl">-ms-animation-fill-mode</span><span class="p">:</span> <span class="n">forwards</span><span class="p">;</span>
+                <span class="nl">-moz-animation-fill-mode</span><span class="p">:</span> <span class="n">forwards</span><span class="p">;</span>
+            <span class="p">}</span>
+        <span class="nt">&lt;/style&gt;</span>
+    <span class="nt">&lt;/head&gt;</span>
+    <span class="nt">&lt;body&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"company"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;h2</span> <span class="na">class=</span><span class="s">"company_name"</span><span class="nt">&gt;</span>上海世茂集团企业招聘<span class="nt">&lt;/h2&gt;</span>
+            <span class="nt">&lt;h5</span> <span class="na">class=</span><span class="s">"company_introduce"</span><span class="nt">&gt;</span>世茂集团，是以房地产开发为主的国际化企业集群，房地产界领袖企业之一。<span class="nt">&lt;/h5&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
 
-<p>使用npm install [&lt;@scope&gt;/]<name>@<version>安装特定依赖包</version></name></p>
-
-<p>使用npm install 安装 package.json文件中指定的全部依赖包</p>
-
-<p>更多用法请见<a href="https://docs.npmjs.com/">官方文档</a></p>
-
-<h2 id="2-webpack是什么">2. webpack是什么</h2>
-
-<p>随着web应用越来越复杂</p>
-
-<p>webpack应运而生</p>
-
-<p>webpack是一个可以将复杂程序进行打包发布的软件</p>
-
-<p>打包的好处是可以对应用程序进行压缩大小等处理，提高性能</p>
-
-<p>webpack继承了很多开发中的常用功能比如开发服务器，比如集成了babel<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
-
-<h3 id="与npm的互动">与npm的互动</h3>
-
-<blockquote>
-  <p>webpack是webpack自带的一条打包命令，是最基本的打包命令。
-npm run webpack，则是在package.json文件中有一个script配置项，在这个script里面自定义的一条命令，它通过npm来运行。例如：</p>
-  <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nl">"scripts"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-   </span><span class="nl">"start"</span><span class="p">:</span><span class="w"> </span><span class="s2">"webpack"</span><span class="p">,</span><span class="w">
-   </span><span class="nl">"server"</span><span class="p">:</span><span class="w"> </span><span class="s2">"webpack-dev-server --open"</span><span class="p">,</span><span class="w">
-   </span><span class="nl">"build"</span><span class="p">:</span><span class="w"> </span><span class="s2">"set NODE_ENV=production &amp;&amp; webpack --config ./webpack.production.config.js --progress"</span><span class="w">
-</span><span class="p">}</span><span class="err">,</span><span class="w">
-</span></code></pre></div>  </div>
-  <p>当脚本名为“start”时，可以省略“run”，直接为：</p>
-  <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm start
-</code></pre></div>  </div>
-  <p>作者：差很多先生CL
-链接：https://www.jianshu.com/p/7642746b021a</p>
-</blockquote>
-
-<h2 id="扩展阅读">扩展阅读：</h2>
-
-<ol>
-  <li>npm-install：<a href="https://docs.npmjs.com/cli/v7/commands/npm-install">https://docs.npmjs.com/cli/v7/commands/npm-install</a></li>
-  <li>webpack npm start和npm run server：<a href="https://www.jianshu.com/p/7642746b021a">https://www.jianshu.com/p/7642746b021a</a></li>
-  <li>一口（很长的）气了解 babel：<a href="https://zhuanlan.zhihu.com/p/43249121">https://zhuanlan.zhihu.com/p/43249121</a></li>
-  <li>Node.js 中的依赖管理：<a href="https://zhuanlan.zhihu.com/p/56002037">https://zhuanlan.zhihu.com/p/56002037</a></li>
-  <li>package.json 文件详解：<a href="https://blog.csdn.net/weixin_44135121/article/details/91674772">https://blog.csdn.net/weixin_44135121/article/details/91674772</a></li>
-</ol>
-
-<p>如有侵权联系删除</p>
-
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>babel可以将ES6 ，ES5等更新语法转换成兼容性更强的老语法，实现对旧版浏览器的兼容 <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
+<p>忘了出处了，联系我加上相关信息或删除</p>
 
     </div>
     <p style="color: var(--color-auto-blue-5)">

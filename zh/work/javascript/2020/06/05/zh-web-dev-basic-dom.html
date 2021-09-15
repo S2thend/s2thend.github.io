@@ -2,26 +2,26 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>前端开发基础知识-常用工具</title>
+    <title>前端开发基础知识-什么是dom</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Your awesome title" />
     <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>前端开发基础知识-常用工具 | Your awesome title</title>
+<title>前端开发基础知识-什么是dom | Your awesome title</title>
 <meta name="generator" content="Jekyll v4.2.0" />
-<meta property="og:title" content="前端开发基础知识-常用工具" />
+<meta property="og:title" content="前端开发基础知识-什么是dom" />
 <meta name="author" content="Cai Borui" />
 <meta property="og:locale" content="zh" />
-<meta name="description" content="1. package.json是什么" />
-<meta property="og:description" content="1. package.json是什么" />
-<link rel="canonical" href="/zh/work/javascript/2020/06/02/zh-web-dev-basic-tools.html" />
-<meta property="og:url" content="/zh/work/javascript/2020/06/02/zh-web-dev-basic-tools.html" />
+<meta name="description" content="举例：" />
+<meta property="og:description" content="举例：" />
+<link rel="canonical" href="/zh/work/javascript/2020/06/05/zh-web-dev-basic-dom.html" />
+<meta property="og:url" content="/zh/work/javascript/2020/06/05/zh-web-dev-basic-dom.html" />
 <meta property="og:site_name" content="Your awesome title" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-06-02T00:43:26+08:00" />
+<meta property="article:published_time" content="2020-06-05T00:43:26+08:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="前端开发基础知识-常用工具" />
+<meta property="twitter:title" content="前端开发基础知识-什么是dom" />
 <script type="application/ld+json">
-{"author":{"@type":"Person","name":"Cai Borui"},"@type":"BlogPosting","headline":"前端开发基础知识-常用工具","dateModified":"2020-06-02T00:43:26+08:00","datePublished":"2020-06-02T00:43:26+08:00","description":"1. package.json是什么","url":"/zh/work/javascript/2020/06/02/zh-web-dev-basic-tools.html","mainEntityOfPage":{"@type":"WebPage","@id":"/zh/work/javascript/2020/06/02/zh-web-dev-basic-tools.html"},"@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"Cai Borui"},"@type":"BlogPosting","headline":"前端开发基础知识-什么是dom","dateModified":"2020-06-05T00:43:26+08:00","datePublished":"2020-06-05T00:43:26+08:00","description":"举例：","url":"/zh/work/javascript/2020/06/05/zh-web-dev-basic-dom.html","mainEntityOfPage":{"@type":"WebPage","@id":"/zh/work/javascript/2020/06/05/zh-web-dev-basic-dom.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     <link href="/assets/css/primer.css" rel="stylesheet" />
@@ -134,75 +134,56 @@
     <div style="min-height: 87vh;">
 
   <div class="markdown-body col-sm-12 col-md-10 mx-auto">
-    <h1>前端开发基础知识-常用工具</h1>
+    <h1>前端开发基础知识-什么是dom</h1>
     
     <p>
-      02 Jun 2020
+      05 Jun 2020
       
       
     </p>
     <div>
-        <h2 id="1-packagejson是什么">1. package.json是什么</h2>
+        <h2 id="举例">举例：</h2>
 
-<p>就像java里面的maven包管理工具的pom.xml和gem的gemfile，package.json是node.js的包管理工具npm的配置文件</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"UTF-8"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">http-equiv=</span><span class="s">"X-UA-Compatible"</span> <span class="na">content=</span><span class="s">"IE=edge"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"width=device-width, initial-scale=1.0"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;title&gt;</span>Document<span class="nt">&lt;/title&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;div&gt;</span>
+        <span class="nt">&lt;p&gt;&lt;/p&gt;</span>
+        <span class="nt">&lt;a&gt;&lt;/a&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+<p>以上结构可以表示为 如下的树形结构</p>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>html
+├── <span class="nb">head</span>
+│   ├── meta
+│   ├── meta
+│   ├── meta
+│   └── title
+└── body
+    └── div
+        ├── p
+        └── a
+</code></pre></div></div>
 
-<h3 id="常用举例">常用举例：</h3>
+<p>html是整个文档的根节点</p>
 
-<p>使用npm install [&lt;@scope&gt;/]<name>@<version>安装特定依赖包</version></name></p>
+<p>head和body为html的子节点</p>
 
-<p>使用npm install 安装 package.json文件中指定的全部依赖包</p>
-
-<p>更多用法请见<a href="https://docs.npmjs.com/">官方文档</a></p>
-
-<h2 id="2-webpack是什么">2. webpack是什么</h2>
-
-<p>随着web应用越来越复杂</p>
-
-<p>webpack应运而生</p>
-
-<p>webpack是一个可以将复杂程序进行打包发布的软件</p>
-
-<p>打包的好处是可以对应用程序进行压缩大小等处理，提高性能</p>
-
-<p>webpack继承了很多开发中的常用功能比如开发服务器，比如集成了babel<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
-
-<h3 id="与npm的互动">与npm的互动</h3>
-
-<blockquote>
-  <p>webpack是webpack自带的一条打包命令，是最基本的打包命令。
-npm run webpack，则是在package.json文件中有一个script配置项，在这个script里面自定义的一条命令，它通过npm来运行。例如：</p>
-  <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nl">"scripts"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-   </span><span class="nl">"start"</span><span class="p">:</span><span class="w"> </span><span class="s2">"webpack"</span><span class="p">,</span><span class="w">
-   </span><span class="nl">"server"</span><span class="p">:</span><span class="w"> </span><span class="s2">"webpack-dev-server --open"</span><span class="p">,</span><span class="w">
-   </span><span class="nl">"build"</span><span class="p">:</span><span class="w"> </span><span class="s2">"set NODE_ENV=production &amp;&amp; webpack --config ./webpack.production.config.js --progress"</span><span class="w">
-</span><span class="p">}</span><span class="err">,</span><span class="w">
-</span></code></pre></div>  </div>
-  <p>当脚本名为“start”时，可以省略“run”，直接为：</p>
-  <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm start
-</code></pre></div>  </div>
-  <p>作者：差很多先生CL
-链接：https://www.jianshu.com/p/7642746b021a</p>
-</blockquote>
+<p>body是div的父节点，每个节点就是一个dom元素/对象，js代码最主要的作用就是操作dom元素来改变页面内容</p>
 
 <h2 id="扩展阅读">扩展阅读：</h2>
 
 <ol>
-  <li>npm-install：<a href="https://docs.npmjs.com/cli/v7/commands/npm-install">https://docs.npmjs.com/cli/v7/commands/npm-install</a></li>
-  <li>webpack npm start和npm run server：<a href="https://www.jianshu.com/p/7642746b021a">https://www.jianshu.com/p/7642746b021a</a></li>
-  <li>一口（很长的）气了解 babel：<a href="https://zhuanlan.zhihu.com/p/43249121">https://zhuanlan.zhihu.com/p/43249121</a></li>
-  <li>Node.js 中的依赖管理：<a href="https://zhuanlan.zhihu.com/p/56002037">https://zhuanlan.zhihu.com/p/56002037</a></li>
-  <li>package.json 文件详解：<a href="https://blog.csdn.net/weixin_44135121/article/details/91674772">https://blog.csdn.net/weixin_44135121/article/details/91674772</a></li>
+  <li>Introduction to the DOM：<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction">https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction</a></li>
 </ol>
-
-<p>如有侵权联系删除</p>
-
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>babel可以将ES6 ，ES5等更新语法转换成兼容性更强的老语法，实现对旧版浏览器的兼容 <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
 
     </div>
     <p style="color: var(--color-auto-blue-5)">
