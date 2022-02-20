@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-02-20T12:05:24+08:00</updated><id>/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Mostly on Chinese site - Decalaration</title><link href="/jekyll/update/2022/02/20/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Mostly on Chinese site - Decalaration" /><published>2022-02-20T00:43:26+08:00</published><updated>2022-02-20T00:43:26+08:00</updated><id>/jekyll/update/2022/02/20/welcome-to-jekyll</id><content type="html" xml:base="/jekyll/update/2022/02/20/welcome-to-jekyll.html">&lt;h1 id=&quot;declaration&quot;&gt;Declaration&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-02-20T15:16:04+08:00</updated><id>/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Mostly on Chinese site - Decalaration</title><link href="/jekyll/update/2022/02/20/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Mostly on Chinese site - Decalaration" /><published>2022-02-20T00:43:26+08:00</published><updated>2022-02-20T00:43:26+08:00</updated><id>/jekyll/update/2022/02/20/welcome-to-jekyll</id><content type="html" xml:base="/jekyll/update/2022/02/20/welcome-to-jekyll.html">&lt;h1 id=&quot;declaration&quot;&gt;Declaration&lt;/h1&gt;
 
 &lt;h2 id=&quot;original-posts-are-all-written-in-chinese-which-i-havent-got-time-to-translate&quot;&gt;Original posts are all written in chinese, which I haven’t got time to translate.&lt;/h2&gt;
 
@@ -6,4 +6,555 @@
 
 &lt;p&gt;Since I am using automatic i18n techniques, you can switch to chinese site manually on my home-page.&lt;/p&gt;
 
-&lt;p&gt;You may also adjusting to darker themes using the button on navigation bar.&lt;/p&gt;</content><author><name>jill</name></author><category term="jekyll" /><category term="update" /><summary type="html">Declaration</summary></entry></feed>
+&lt;p&gt;You may also adjusting to darker themes using the button on navigation bar.&lt;/p&gt;</content><author><name>jill</name></author><category term="jekyll" /><category term="update" /><summary type="html">Declaration</summary></entry><entry><title type="html">Web&amp;amp;UI Lab 1</title><link href="/work/course-assignment/2022/02/20/web&ui_lab1.html" rel="alternate" type="text/html" title="Web&amp;amp;UI Lab 1" /><published>2022-02-20T00:43:26+08:00</published><updated>2022-02-20T00:43:26+08:00</updated><id>/work/course-assignment/2022/02/20/web&amp;ui_lab1</id><content type="html" xml:base="/work/course-assignment/2022/02/20/web&amp;ui_lab1.html">&lt;h1 id=&quot;webui-lab-1&quot;&gt;WEB&amp;amp;UI Lab 1&lt;/h1&gt;
+
+&lt;p&gt;**NB: All blogging must be your own work. There should be no copying and pasting from websites, colleagues or anywhere else.&lt;/p&gt;
+
+&lt;h2 id=&quot;part-i--beginning-web-development&quot;&gt;Part I – Beginning Web Development&lt;/h2&gt;
+
+&lt;p&gt;Create a blog to document your Web &amp;amp; User Interface lab work.&lt;/p&gt;
+
+&lt;p&gt;Use Blogger - http://blogger.com to set up your own blog. Follow their instructions to establish your blog. Send the link of your blog to andrea.f.curley@tudublin.ie (eg. yourname.blogspot.com)&lt;/p&gt;
+
+&lt;p&gt;Your blog will be the place where you record information from your labs (not your html code, though snippets of html maybe required).&lt;/p&gt;
+
+&lt;p&gt;Create a Twitter account (if you don’t have one) on http://www.twitter.com and follow dt265. To message me, put @dt265 before your message.&lt;/p&gt;
+
+&lt;p&gt;Read the following two articles and discuss two interesting observations from each article. (~50 words/observation – record in blog)
+All you need to know about mockups, wireframes, and prototypes - Wireframing vs. prototyping: What’s the difference?&lt;/p&gt;
+
+&lt;p&gt;https://www.invisionapp.com/inside-design/wireframe-prototype-difference/&lt;/p&gt;
+
+&lt;p&gt;Discuss TWO observations from this article.
+Wireframe is a structure of the desgin. It has no UI and displays no function. It is only lines of structures.
+Prototype can feature some UI and functions such as desgined Icons and buttons. It is very close to the product by the look, although it doesn’t have real functions.&lt;/p&gt;
+
+&lt;p&gt;The 10 Most Common Web Design Mistakes
+https://youtu.be/VGxze7xMYJs&lt;/p&gt;
+
+&lt;p&gt;Discuss TWO observations from this video.
+Overlays are annoying. Huge pictures are bad for landing page.
+Better using Icons with labels, or it will be confusing.
+A lot of mistakes keep coming back in decades.&lt;/p&gt;
+
+&lt;p&gt;Pick one term/technology from each of the article and video in 3 (one from 3a and one from 3b):&lt;/p&gt;
+
+&lt;p&gt;Wireframe:
+Tweeted By Ali Rıza Reisoğlu@Codereis1&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;What is wireframe? 
+It is a design layout to represent the skeleton of a website or an application’s user interface (UI) and core functionality.
+What is the easiest way of doing it ? 
+Pen and paper&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Cloud Service:&lt;/p&gt;
+
+&lt;p&gt;Tweeted By SDxCentral News@sdxcentral&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Definition: What Is a Public Cloud? 
+The public cloud is a cloud hosted by third-party cloud service providers on hardware shared by customers or clients. Read on here.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Using Twitter: Do a search on each term, documenting information you found and where you found it from. (~50 words/technology – record in blog).&lt;/p&gt;
+
+&lt;p&gt;Follow three people that could provide you with information during this module. Who are they? Why did you choose them&lt;/p&gt;
+
+&lt;p&gt;CSS Frameworks@cssframeworks
+CSS-Tricks@css
+SitePoint JavaScript@SitePointJS&lt;/p&gt;
+
+&lt;p&gt;Javascript and css are harder than html and have many skills we may not be familiar with and needs daily study.
+CSS frameworks can speed up development.&lt;/p&gt;
+
+&lt;h2 id=&quot;part-ii--starting-coding&quot;&gt;Part II – Starting Coding&lt;/h2&gt;
+
+&lt;p&gt;Have a read of the following website: http://www.w3schools.com/html/html_basic.asp&lt;/p&gt;
+
+&lt;p&gt;Use the html tool http://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic to do the following exercises:&lt;/p&gt;
+
+&lt;p&gt;Display “Hello World” using HTML.&lt;/p&gt;
+
+&lt;p&gt;Use header tags (&amp;lt;h1&amp;gt;-&amp;lt;h6&amp;gt;) in this web page.&lt;/p&gt;
+
+&lt;p&gt;Illustrate the use of &amp;lt;a&amp;gt; (hyperlinks) in your web page.&lt;/p&gt;
+
+&lt;p&gt;Introduce anchors (using &amp;lt;a&amp;gt;) into this web page. In doing this use the paragraph tag &amp;lt;p&amp;gt; and the line-break tag &amp;lt;br/&amp;gt; to format your text.&lt;/p&gt;
+
+&lt;p&gt;If you are coding in a text editor, the starting point for your html file should be the htmltemplate file in Brightspace.&lt;/p&gt;
+
+&lt;h2 id=&quot;part-iii--analysing-the-ui-record-in-blog&quot;&gt;Part III – Analysing the UI (record in blog)&lt;/h2&gt;
+
+&lt;h3 id=&quot;analyse-the-following-websites-with-regard-to-usability-in-general-from-your-point-of-view&quot;&gt;Analyse the following websites with regard to usability in general (from your point of view)&lt;/h3&gt;
+
+&lt;p&gt;https://www.tudublin.ie&lt;/p&gt;
+
+&lt;p&gt;https://www.w3schools.com/&lt;/p&gt;
+
+&lt;p&gt;https://www.khanacademy.org/&lt;/p&gt;
+
+&lt;p&gt;Definitely khanacademy!!! Fewer buttons but all main functions.&lt;/p&gt;
+
+&lt;p&gt;Analyse all websites using this validator http://ready.mobi/&lt;/p&gt;
+
+&lt;p&gt;What did they look like?    &lt;br /&gt;
+Texts all squeezed together.&lt;/p&gt;
+
+&lt;p&gt;How did they score?   &lt;br /&gt;
+2/5&lt;/p&gt;
+
+&lt;p&gt;What are the main problems with each of the three websites?     &lt;br /&gt;
+Page weight all too large.
+Tu Dublin and Khan Found JavaScript inside head.
+W3c school DOM count is at 797, which is too high.&lt;/p&gt;
+
+&lt;p&gt;Analyse the all websites using this tool http://wave.webaim.org/&lt;/p&gt;
+
+&lt;p&gt;How accessible are each of the three websites?&lt;br /&gt;
+Khan &amp;gt; TU Dublin &amp;gt; W3c school&lt;/p&gt;
+
+&lt;p&gt;What are the problems in each of the three websites?&lt;/p&gt;
+
+&lt;p&gt;Khan:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Missing or uninformative page title&lt;/li&gt;
+  &lt;li&gt;Language missing or invalid&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;W3c:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Missing alternative text&lt;/li&gt;
+  &lt;li&gt;Very low contrast&lt;/li&gt;
+  &lt;li&gt;Redundant link&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;TU Dublin:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Empty heading&lt;/li&gt;
+  &lt;li&gt;Very low contrast&lt;/li&gt;
+  &lt;li&gt;Long alternative text&lt;/li&gt;
+  &lt;li&gt;Skipped heading level&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Are there similar problems in all three?      &lt;br /&gt;
+Very low contrast.Missing or uninformative page title&lt;/p&gt;
+
+&lt;p&gt;2&lt;/p&gt;</content><author><name>Borui</name></author><category term="work" /><category term="course-assignment" /><summary type="html">WEB&amp;amp;UI Lab 1</summary></entry><entry><title type="html">Web&amp;amp;UI Lab 2</title><link href="/work/course-assignment/2022/02/20/web&ui_lab2.html" rel="alternate" type="text/html" title="Web&amp;amp;UI Lab 2" /><published>2022-02-20T00:43:26+08:00</published><updated>2022-02-20T00:43:26+08:00</updated><id>/work/course-assignment/2022/02/20/web&amp;ui_lab2</id><content type="html" xml:base="/work/course-assignment/2022/02/20/web&amp;ui_lab2.html">&lt;h1 id=&quot;webui-lab-2&quot;&gt;Web&amp;amp;UI Lab 2&lt;/h1&gt;
+
+&lt;h2 id=&quot;part-ii--using--in-an-html5-page-record-in-blog&quot;&gt;Part II – Using &lt;meta /&gt; in an HTML5 page (record in blog)&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Identify four different uses of the meta tag.
+    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;   Define keywords for search engines:
+   &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;keywords&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;HTML, CSS, JavaScript&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+
+   Define a description of your web page:
+   &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;description&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Free Web tutorials for HTML and CSS&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+
+   Define the author of a page:
+   &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;author&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;John Doe&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+
+   Refresh document every 30 seconds:
+   &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;http-equiv=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;refresh&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;30&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+
+   Setting the viewport to make your website look good on all devices:
+   &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;viewport&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;width=device-width, initial-scale=1.0&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Put a meta tag for each of these uses into your Fish Creek Web Pages.
+    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;   &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;keywords&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Animal, Hospital, Veterinarians, Vets, Fish Creek&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+   &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;description&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Fish Creek Animal Hospital”&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+   &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;author&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Magda Patel &quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+   &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;viewport&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;width=device-width, initial-scale=1.0&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Copy the head section/make a screenshot of one of the web pages with the meta tag and paste into your blog.
+    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;   &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+     &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;UTF-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+     &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Fish Creek Animal Hospital&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+     &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;keywords&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Animal, Hospital, Veterinarians, Vets, Fish Creek&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+     &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;description&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Fish Creek Animal Hospital”&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+     &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;author&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Magda Patel &quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+     &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;viewport&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;width=device-width, initial-scale=1.0&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+   &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;part-iii--search-engine-optimisation-seo-record-in-blog&quot;&gt;Part III – Search Engine Optimisation (SEO) (record in blog)&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Read some of the following articles on Search Engine Optimisation (SEO): 
+http://netm.ag/seostarter-238&lt;br /&gt;
+https://moz.com/beginners-guide-to-seo&lt;br /&gt;
+https://www.ilfusion.com/4-seo-trends-to-watch-out-for-in-2022 
+https://www.singlegrain.com/seo/effective-seo-techniques-that-work/&lt;br /&gt;
+https://www.searchenginejournal.com/seo-basics-to-be-successful/343811/#close 
+https://www.lyfemarketing.com/blog/what-is-seo-and-how-it-works/&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Based on reading the aforementioned article(s), or other research/experience, outline four SEO guidelines that you will employ when designing your own 
+websites.
+    &lt;ul&gt;
+      &lt;li&gt;Create unique, accurate page titles using &amp;lt;title&amp;gt;&lt;/li&gt;
+      &lt;li&gt;Make use of the “description” meta tag. Google might use them as snippets for your pages.&lt;/li&gt;
+      &lt;li&gt;using the “alt” attribute&lt;/li&gt;
+      &lt;li&gt;Supply an Image Sitemap file&lt;/li&gt;
+      &lt;li&gt;Automatically add “nofollow” to comment columns and message boards to avoid passing reputation to spam site through user posted links.&lt;/li&gt;
+      &lt;li&gt;Using structured data, rich snnipets.(Using JSON-LD )&lt;/li&gt;
+      &lt;li&gt;Built to share through social networks.&lt;/li&gt;
+      &lt;li&gt;Improve loading speed&lt;/li&gt;
+      &lt;li&gt;Use long tail key words&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Write two pieces of code that you will include on your Fish Creek website to improve the SEO of the website.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Part IV – Setting up Github  (OPTIONAL)&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Read the following articles on Github: 
+http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1 
+https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Watch the following tutorial on Github:&lt;br /&gt;
+https://www.youtube.com/watch?v=0fKg7e37bQE&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Set yourself up on Github. You should store all of your code files here.&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Borui</name></author><category term="work" /><category term="course-assignment" /><summary type="html">Web&amp;amp;UI Lab 2</summary></entry><entry><title type="html">Web&amp;amp;UI Lab 3</title><link href="/work/course-assignment/2022/02/20/web&ui_lab3.html" rel="alternate" type="text/html" title="Web&amp;amp;UI Lab 3" /><published>2022-02-20T00:43:26+08:00</published><updated>2022-02-20T00:43:26+08:00</updated><id>/work/course-assignment/2022/02/20/web&amp;ui_lab3</id><content type="html" xml:base="/work/course-assignment/2022/02/20/web&amp;ui_lab3.html">&lt;h1 id=&quot;webui-lab-3&quot;&gt;Web&amp;amp;UI Lab 3&lt;/h1&gt;
+
+&lt;h2 id=&quot;part-i--reviewing-this-weeks-lectures-record-in-blog&quot;&gt;Part I – Reviewing this week’s lectures (record in blog)&lt;/h2&gt;
+
+&lt;h3 id=&quot;page-layout&quot;&gt;Page Layout&lt;/h3&gt;
+
+&lt;p&gt;How exactly can cells be spanned across rows and columns in a table? Provide code and examples.&lt;/p&gt;
+
+&lt;p&gt;How did you find coding tables? Outline positive or negative observations, providing examples.
+Positive: Good for displaying tables.&lt;/p&gt;
+
+&lt;p&gt;Negative: Bad for making layouts. Deep in DOM tree, poor accessbility.&lt;/p&gt;
+
+&lt;h3 id=&quot;cognition&quot;&gt;Cognition&lt;/h3&gt;
+
+&lt;p&gt;Browse some university websites in the USA (observing content, layout, colour, responsiveness …): https://searchenginesmarketer.com/company/resources/university-college-list/&lt;/p&gt;
+
+&lt;p&gt;State four features that these websites have in common. You should state which websites you have analysed.
+https://www.ucla.edu/
+https://www.sandiego.edu/
+https://www.caltech.edu/&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Use Cookies&lt;/li&gt;
+  &lt;li&gt;Place “Give” on top of the navigation bar.&lt;/li&gt;
+  &lt;li&gt;Use big pictures and news for main contents.&lt;/li&gt;
+  &lt;li&gt;All fully responsive.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Browse some university websites in Ireland (observing content, layout, colour, responsiveness …): https://www.educationinireland.com/en/Where-can-I-study-/View-all-Universities-Colleges/&lt;/p&gt;
+
+&lt;p&gt;State four features that these websites have in common. You should state which websites you have analysed.
+https://www.dcu.ie/international
+https://www.tudublin.ie/
+https://www.ucd.ie/&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Use Cookies&lt;/li&gt;
+  &lt;li&gt;Use double navigation bars.&lt;/li&gt;
+  &lt;li&gt;Use sliders, big pictures, and news for main contents.&lt;/li&gt;
+  &lt;li&gt;All fully responsive.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;From reading the many articles that I have tweeted on flat design/skeuomorhism/neuomorphism answer the following:&lt;/p&gt;
+
+&lt;p&gt;What is the meaning of flat design? What website uses flat design?&lt;br /&gt;
+Flat design is a user interface design style that uses simple, two-dimensional elements and bright colors. It is often contrasted to the skeuomorphic style that gives the illusion of three dimensions through copying real-life properties.
+Most websites use flat desgin now.&lt;/p&gt;
+
+&lt;p&gt;What is the meaning of neuomorphism? What website uses neuomorphism?
+Neumorphism originated by combining the old classic skeuomorphism (Interface objects that mimic their real-world counterparts in appearance e.g. recycle bin icon used for discarding files) with the flat design.
+Mostly Designer’s sites.&lt;/p&gt;
+
+&lt;h2 id=&quot;part-ii--incorporating-css-into-fish-creek&quot;&gt;Part II – Incorporating CSS into Fish Creek&lt;/h2&gt;
+
+&lt;p&gt;For the external stylesheet, open up a new text file and call it styles.css. Save it in the same directory as your html files. Most of your CSS rules should go in here. You then need to put &amp;lt;link…&amp;gt; in the &amp;lt;head&amp;gt; section of any of the html pages that are using this style sheet. This is External CSS and styles in here will apply to all of your pages.&lt;/p&gt;
+
+&lt;p&gt;For styles that apply to only one web page, you should put &lt;style&gt;&lt;/style&gt; in the head of the html file. The CSS rules go in this tag. This is Embedded CSS.&lt;/p&gt;
+
+&lt;p&gt;Some useful tutorials on CSS are as follows:&lt;/p&gt;
+
+&lt;p&gt;W3Schools&lt;/p&gt;
+
+&lt;p&gt;Code Academy&lt;/p&gt;
+
+&lt;p&gt;Khan Academy&lt;/p&gt;
+
+&lt;p&gt;Using the Fish Creek website that you created last week, incorporate Cascading Style Sheets (CSS) – embedded and external, as follows:&lt;/p&gt;
+
+&lt;p&gt;All headings should have the same colour, size and font.&lt;/p&gt;
+
+&lt;p&gt;Each page should have a different colour background.&lt;/p&gt;
+
+&lt;p&gt;All hyperlinks should be the same colour before being clicked, when clicked and when hovered over.&lt;/p&gt;
+
+&lt;p&gt;The footer (&amp;lt;footer&amp;gt;) should have the same background colour on both pages, though this colour should differ from the background colour of each page.&lt;/p&gt;
+
+&lt;p&gt;In the unordered list, change the list so that list items use squares rather than circles.&lt;/p&gt;
+
+&lt;p&gt;In the definition list, use CSS (not more tags!) to style &amp;lt;dt&amp;gt; so that it is always bold and underlined.&lt;/p&gt;
+
+&lt;p&gt;Put the navigation links in a &amp;lt;nav&amp;gt; and style this &amp;lt;nav&amp;gt;.&lt;/p&gt;
+
+&lt;p&gt;You should check all of your code the HTML Validator - https://validator.w3.org/&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;UTF-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Title of the document&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;styles.css&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;nav&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;ul&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;list-style-type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;overflow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;hidden&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  
+  &lt;span class=&quot;nt&quot;&gt;nav&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;li&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  
+  &lt;span class=&quot;nt&quot;&gt;nav&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;li&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;padding-right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;16px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;black&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;header&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Fish Creek Animal Hospital&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/header&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;nav&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;index.html&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Home&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;services.html&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Services&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;index.html&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Ask the Vet&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;index.html&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Contact&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/nav&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;section&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;dl&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;dt&amp;gt;&lt;/span&gt;Full Services Facility&lt;span class=&quot;nt&quot;&gt;&amp;lt;/dt&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;dd&amp;gt;&lt;/span&gt;Verinarians and staff are on duty 24 hours a day,7 days a week.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/dd&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;dt&amp;gt;&lt;/span&gt;Years of Experience&lt;span class=&quot;nt&quot;&gt;&amp;lt;/dt&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;dd&amp;gt;&lt;/span&gt;Fish Creek Veterinarians have provided quality,dependable care for your beloved animals since 1984.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/dd&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;dt&amp;gt;&lt;/span&gt;Open Door Policy.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/dt&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;dd&amp;gt;&lt;/span&gt;Our professional welcome owners to stay with their pets during any medical procedure.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/dd&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/dl&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/section&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;br&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;br&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;
+        1-800-555-5555&lt;span class=&quot;nt&quot;&gt;&amp;lt;br&amp;gt;&lt;/span&gt;
+         1242 Grassy Lane&lt;span class=&quot;nt&quot;&gt;&amp;lt;br&amp;gt;&lt;/span&gt;
+         Fish Creek,WI 55534
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;br&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;br&amp;gt;&lt;/span&gt;
+
+
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;footer&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;em&amp;gt;&lt;/span&gt; Copyright &lt;span class=&quot;ni&quot;&gt;&amp;amp;copy;&lt;/span&gt; 2013 Fish Creek Animal Hospital&lt;span class=&quot;nt&quot;&gt;&amp;lt;/em&amp;gt;&amp;lt;br&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;email&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#email&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;borui@cai.com&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/footer&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;2em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;margin-top&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0.67em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;margin-bottom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0.67em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;margin-left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;margin-right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;font-weight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;bold&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;nav&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;10px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;tomato&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1px&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:visited&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;chartreuse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:hover&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;cornflowerblue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;purple&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;footer&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;rgb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;229&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;240&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;73&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;ul&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;list-style-type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;square&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;dt&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;font-weight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;bold&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;text-decoration&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;underline&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;nav&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;pink&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;3px&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;border-radius&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;10px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Borui</name></author><category term="work" /><category term="course-assignment" /><summary type="html">Web&amp;amp;UI Lab 3</summary></entry><entry><title type="html">Web&amp;amp;UI Lab 4</title><link href="/work/course-assignment/2022/02/20/web&ui_lab4.html" rel="alternate" type="text/html" title="Web&amp;amp;UI Lab 4" /><published>2022-02-20T00:43:26+08:00</published><updated>2022-02-20T00:43:26+08:00</updated><id>/work/course-assignment/2022/02/20/web&amp;ui_lab4</id><content type="html" xml:base="/work/course-assignment/2022/02/20/web&amp;ui_lab4.html">&lt;h1 id=&quot;webui-lab-4&quot;&gt;Web&amp;amp;UI Lab 4&lt;/h1&gt;
+
+&lt;p&gt;This is the last lab that will be marked. It must be completed by Sunday February 27th.&lt;/p&gt;
+
+&lt;h2 id=&quot;part-i--coding-a-fish-creek-website&quot;&gt;Part I – Coding a Fish Creek Website&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Alter your Fish Creek code (from previous labs) to use the following:&lt;br /&gt;
+a. Classes and ids&lt;br /&gt;
+b. Centring layers
+    &lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;nc&quot;&gt;.centered&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+     &lt;span class=&quot;nl&quot;&gt;margin-left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;auto&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+     &lt;span class=&quot;nl&quot;&gt;margin-right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;auto&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+     &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;70%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;p&gt;c. The position attribute&lt;/p&gt;
+
+    &lt;p&gt;d. The float attribute&lt;br /&gt;
+ Ensure No. 1 is complete before you answer 2 &amp;amp; 3.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Test your code with the HTML validator (http://validator.w3.org/ ) and the CSS validator (http://jigsaw.w3.org/css-validator/ ). (record in blog)
+    &lt;ol&gt;
+      &lt;li&gt;What are the problems that are highlighted?&lt;/li&gt;
+      &lt;li&gt;Were you able to fix them?&lt;br /&gt;
+ ```
+ Warning: Consider adding a lang attribute to the html start tag to declare the language of this document.&lt;/li&gt;
+    &lt;/ol&gt;
+
+    &lt;p&gt;From line 1, column 16; to line 2, column 6&lt;/p&gt;
+
+    &lt;p&gt;TYPE html&amp;gt;↩&amp;lt;html&amp;gt;↩&amp;lt;head&lt;/p&gt;
+
+    &lt;p&gt;For further guidance, consult Declaring the overall language of a page and Choosing language tags.&lt;/p&gt;
+
+    &lt;p&gt;If the HTML checker has misidentified the language of this document, please file an issue report or send e-mail to report the problem.&lt;/p&gt;
+
+    &lt;p&gt;Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.&lt;/p&gt;
+
+    &lt;p&gt;From line 48, column 3; to line 48, column 11&lt;/p&gt;
+
+    &lt;p&gt;&amp;lt;/nav&amp;gt;↩↩  &amp;lt;section&amp;gt;↩    &amp;lt;&lt;/p&gt;
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+ Fix: add lang and header
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;html lang=&quot;en&quot;&gt;
+ ...
+ &lt;/html&gt;
+    &lt;p&gt;```&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Test your code across three browsers. (record in blog)
+    &lt;ol&gt;
+      &lt;li&gt;Were there any?&lt;/li&gt;
+      &lt;li&gt;If so, were you able to fix them?&lt;br /&gt;
+ I tried IE, Chrome, and Edge, there were no problems.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Try the following CSS game: http://flukeout.github.io/ (record in blog)
+    &lt;ol&gt;
+      &lt;li&gt;What level did you get to?&lt;br /&gt;
+ Level 32&lt;/li&gt;
+      &lt;li&gt;What did you learn from the game??
+        &lt;ul&gt;
+          &lt;li&gt;”+” to select the following element.&lt;/li&gt;
+          &lt;li&gt;”~” You can select all siblings of an element that follow it. This is like the Adjacent Selector (A + B) except it gets all of the following elements instead of one.&lt;/li&gt;
+          &lt;li&gt;”&amp;gt;” You can select elements that are direct children of other elements. A child element is any element that is nested directly in another element.&lt;/li&gt;
+          &lt;li&gt;“el:first-child” You can select the first child element. el is the tag name of the child not the parent.&lt;/li&gt;
+          &lt;li&gt;.example:nth-of-type(odd) selects all odd instances of a the example class.&lt;/li&gt;
+          &lt;li&gt;span:nth-of-type(6n+2) selects every 6th instance of a span, starting from (and including) the second instance.&lt;/li&gt;
+          &lt;li&gt;a[href] selects all a elements that have a href attribute no matter what value href equals to.&lt;/li&gt;
+          &lt;li&gt;[attribute=”value”]Attribute selectors are case sensitive, each character must match exactly.&lt;/li&gt;
+          &lt;li&gt;.toy[category^=”Swim”] selects elements with class toy and either category=”Swimwear or category=”Swimming”.&lt;/li&gt;
+          &lt;li&gt;[class*=”heading”] selects all elements with “heading” in their class, like class=”main-heading” and class=”sub-heading”&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;part-ii--web-development-tools-record-in-blog&quot;&gt;Part II – Web Development Tools (record in blog)&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Look at the “Developer Tools” in the Chrome Browser and answer the following:&lt;br /&gt;
+ a. What does your page look like from a mobile perspective?&lt;br /&gt;
+ Bigger texts due to lower resolutions and smaller buttons due to using of % to adjust size in css.&lt;/p&gt;
+
+    &lt;p&gt;b. What will you use this tool for when developing a website? &lt;br /&gt;
+ For testing responsiveness.&lt;br /&gt;
+ Checking responsiveness and availibility on phones or tablets.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Research and describe one other extension/add-on that could be helpful when developing a website for each of the following browsers:  &lt;br /&gt;
+ a. Firefox&lt;br /&gt;
+ b. Chrome&lt;br /&gt;
+ Perhaps the speed limit, because it allows me to find out how quick website is rendered in poor networks.
+ And the element checker, let me inspect if the css is working right.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Part III – Perception, Attention &amp;amp; Memory (record in blog)&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Visual perception (attention and memory) 
+Play the following games - https://www.freebrainagegames.com/&lt;/p&gt;
+
+    &lt;p&gt;i. Comment on how you did overall.    &lt;br /&gt;
+ Congratulations! Your Brain Age is 32&lt;/p&gt;
+
+    &lt;p&gt;ii. Comment on what strategies you used to get the best score you could.    &lt;br /&gt;
+ Name the position with letters and rememder the sequence instead of positions in the first game.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Visual memory – play the following game: https://www.proprofs.com/games/pattern-memory/&lt;/p&gt;
+
+    &lt;p&gt;a. Comment on how you did.   &lt;br /&gt;
+ 21100 Scores&lt;/p&gt;
+
+    &lt;p&gt;b. Did you use the Gestalt principles (https://www.interaction-design.org/literature/topics/gestalt-principles) during this game? &lt;br /&gt;
+ Of course.&lt;/p&gt;
+
+    &lt;p&gt;c. How can this exercise help you as an interaction designer?  &lt;br /&gt;
+ I can use Gestalt principles(similarity, proximity, closure, continuity) to desgin my websites. Because that will help users to group and search contents on my website more easily.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Testing attention &amp;amp; working memory – do the following activity: 
+https://youtu.be/vJG698U2Mvo&lt;/p&gt;
+
+    &lt;p&gt;a. How selective was your attention?  &lt;br /&gt;
+ Very selective.&lt;/p&gt;
+
+    &lt;p&gt;b. How is this relevant to usability? &lt;br /&gt;
+ We should make the most important contents more visible. Or else our users may get attracted by irrelavent contents and miss the real important ones.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Borui</name></author><category term="work" /><category term="course-assignment" /><summary type="html">Web&amp;amp;UI Lab 4</summary></entry></feed>
