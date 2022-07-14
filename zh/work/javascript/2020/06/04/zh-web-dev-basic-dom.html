@@ -2,23 +2,26 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Rui - About</title>
+    <title>前端开发基础知识-什么是dom</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Your awesome title" />
     <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Rui - About | Your awesome title</title>
+<title>前端开发基础知识-什么是dom | Your awesome title</title>
 <meta name="generator" content="Jekyll v4.2.0" />
-<meta property="og:title" content="Rui - About" />
+<meta property="og:title" content="前端开发基础知识-什么是dom" />
+<meta name="author" content="Cai Borui" />
 <meta property="og:locale" content="zh" />
-<meta name="description" content="Borui Cai Full Stack Web Developer Resident Physician" />
-<meta property="og:description" content="Borui Cai Full Stack Web Developer Resident Physician" />
-<link rel="canonical" href="/about.html" />
-<meta property="og:url" content="/about.html" />
+<meta name="description" content="举例：" />
+<meta property="og:description" content="举例：" />
+<link rel="canonical" href="/zh/work/javascript/2020/06/04/zh-web-dev-basic-dom.html" />
+<meta property="og:url" content="/zh/work/javascript/2020/06/04/zh-web-dev-basic-dom.html" />
 <meta property="og:site_name" content="Your awesome title" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-06-04T17:43:26+01:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Rui - About" />
+<meta property="twitter:title" content="前端开发基础知识-什么是dom" />
 <script type="application/ld+json">
-{"@type":"WebPage","headline":"Rui - About","url":"/about.html","description":"Borui Cai Full Stack Web Developer Resident Physician","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","headline":"前端开发基础知识-什么是dom","dateModified":"2020-06-04T17:43:26+01:00","datePublished":"2020-06-04T17:43:26+01:00","url":"/zh/work/javascript/2020/06/04/zh-web-dev-basic-dom.html","mainEntityOfPage":{"@type":"WebPage","@id":"/zh/work/javascript/2020/06/04/zh-web-dev-basic-dom.html"},"author":{"@type":"Person","name":"Cai Borui"},"description":"举例：","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     <link href="/assets/css/primer.css" rel="stylesheet" />
@@ -49,7 +52,7 @@
     
         <div class="Header-item f2 d-none d-lg-inline-block">
           
-            <a class="Header-link" href="/zh/about.html" class="current">
+            <a class="Header-link" href="/zh/about.html" >
               
                 关于本站
               
@@ -71,7 +74,7 @@
             
           
             
-              <a class="menu-item f2" href="/zh/about.html" aria-current="page">
+              <a class="menu-item f2" href="/zh/about.html" >
                 
                   关于本站
                 
@@ -128,59 +131,64 @@
       }
     }
   </script>
-    <div class="d-flex flex-justify-center mt-3 mb-1">
-    <nav class="subnav" aria-label="Respository">
-            <a id="site_lang_nav_en" class="subnav-item f3" href="/about.html" onclick="site_language_switch( &quot;en&quot;)">English</a>
-            <a id="site_lang_nav_zh" class="subnav-item f3" href="/zh/about.html" onclick="site_language_switch( &quot;zh&quot;)">中文</a>
-    </nav>
-</div>
-<script>
-    if(localStorage.getItem('site_language')){
-        switch(localStorage.getItem('site_language')){
-            case "zh":
-                if((location.href).split("/")[3] != "zh"){
-                location.replace("zh")
-                }
-                document.getElementById('site_lang_nav_zh').setAttribute("aria-current","page")
-                console.log("lang:zh")
-            break
-            default:
-                document.getElementById('site_lang_nav_en').setAttribute("aria-current","page")
-            break
-        }
-    }else{
-        console.log((location.href).split("/")[3])
-        switch((navigator.language).substr(0,2)){
-            case "zh":
-                if((location.href).split("/")[3] != "zh"){
-                    location.replace("zh")
-                }
-                localStorage.setItem('site_language', 'zh');
-                document.getElementById('site_lang_nav_zh').setAttribute("aria-current","page")
-                console.log("lang:zh")
-            break
-            default:
-                document.getElementById('site_lang_nav_en').setAttribute("aria-current","page")
-            break
-        }
-    }
+    <div style="min-height: 87vh;">
+
+  <div class="markdown-body col-sm-12 col-md-10 mx-auto">
+    <h1>前端开发基础知识-什么是dom</h1>
     
-    function site_language_switch(lang){
-        localStorage.setItem('site_language', lang);
-    }
-</script>
-<div class="col-10 mx-auto border markdown-body" style="min-height: 85vh;">
     <p>
-        没心没肺没问题
+      04 Jun 2020
+      
+      
     </p>
-    <p>
-        人生是虚拟的，不要太当真
-    </p>
-    <p class="text-gray text-normal mb-2">联系方式（合作,交流+</p>
-    <p class="text-gray text-normal mb-2 d-flex flex-items-center"><svg t="1619080737946" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7926" width="32" height="32"><path d="M544.059897 959.266898h-64.949141c-228.633593 0-415.697442-187.063849-415.697442-415.697442v-64.949141c0-228.633593 187.063849-415.697442 415.697442-415.697442h64.949141c228.633593 0 415.697442 187.063849 415.697442 415.697442v64.949141C959.756315 772.203049 772.692466 959.266898 544.059897 959.266898z" fill="#2DC100" p-id="7927"></path><path d="M618.871102 424.812069c-52.6789 2.760395-98.49572 18.754507-135.696546 54.89766-37.587854 36.50356-54.743053 81.262707-50.047514 136.728622-20.586238-2.580191-39.34177-5.366183-58.19969-6.965492-6.552866-0.516038-14.292415 0.258019-19.786584 3.353224-18.316285 10.318716-35.858512 22.030941-56.703793 35.085479 3.818068-17.284208 6.294847-32.505287 10.680148-47.029101 3.173021-10.732366 1.702721-16.691379-8.152175-23.65687-63.256659-44.73355-89.905323-111.652647-69.963108-180.584703 18.470891-63.720479 63.798295-102.417201 125.376806-122.539619 84.100917-27.500536 178.52055 0.567232 229.651335 67.409538 18.733006 24.012159 30.112467 52.935895 32.763306 83.275665L618.871102 424.812069zM737.231222 753.7854c-16.691379-7.429312-31.989249-18.574304-48.241381-20.302622-16.252132-1.702721-33.330539 7.687331-50.305534 9.416673-51.724639 5.288368-98.0319-9.132033-136.263778-44.526725-72.646712-67.331723-62.275777-170.522981 21.799542-225.730878 74.736462-49.015438 184.324956-32.659894 237.003856 35.342474 45.971427 59.386373 40.55405 138.198922-15.55589 188.066232-16.252132 14.447022-22.108756 26.313853-11.686627 45.32638 1.909546 3.508855 2.140944 7.94535 3.250836 12.382869L737.231222 753.7854zM376.397651 403.348361c0.516038-12.640888-10.422129-23.991681-23.373254-24.353112-13.025869-0.533444-24.017278 9.593805-24.550722 22.619674-0.003072 0.078839-0.006143 0.158702-0.008191 0.237542-0.512967 12.869215 9.503704 23.719327 22.372918 24.232294 0.238565 0.009215 0.477131 0.015358 0.715696 0.017406C364.663926 426.584415 375.730078 416.448974 376.397651 403.348361zM502.909946 378.995249c-13.00232 0.258019-23.991681 11.350793-23.733662 23.99168 0.280545 13.104708 11.131681 23.50124 24.23639 23.220696 0.038908-0.001024 0.077815-0.002048 0.116723-0.003072 12.865119 0.104436 23.379398-10.239877 23.483834-23.104996 0.002048-0.278497 0-0.556994-0.008192-0.835491-0.109556-12.96546-10.708817-23.386565-23.673252-23.277009C503.191515 378.989105 503.050218 378.991153 502.909946 378.995249zM547.334283 569.640648c10.628954 0 19.348361-8.332379 19.760986-18.832323 0.384981-10.920761-8.15627-20.086582-19.077031-20.471563-0.176108-0.006143-0.352217-0.010239-0.529349-0.011262-11.041579 0.069624-19.937095 9.076743-19.867471 20.118322 0.001024 0.08703 0.002048 0.175084 0.003072 0.262115C528.092406 561.263219 536.764714 569.595597 547.334283 569.640648zM669.743869 530.351097c-10.452845 0.086006-19.011503 8.337498-19.477371 18.781128-0.570304 10.670933 7.617707 19.782488 18.28864 20.352793 0.310237 0.016382 0.620475 0.025597 0.930712 0.027645 10.654551 0 19.090342-8.07436 19.47737-18.703314 0.528325-10.772298-7.776409-19.934023-18.548706-20.462348-0.223207-0.011263-0.447438-0.01843-0.670645-0.021501V530.351097z" fill="#FFFFFF" p-id="7928"></path></svg>微信 - caiborui001</p>
-    <p class="text-gray text-normal mb-2 d-flex flex-items-center"><svg t="1619081740615" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="21983" width="32" height="32"><path d="M544.059897 959.266898h-64.949141c-228.633593 0-415.697442-187.063849-415.697442-415.697442v-64.949141c0-228.633593 187.063849-415.697442 415.697442-415.697442h64.949141c228.633593 0 415.697442 187.063849 415.697442 415.697442v64.949141c-0.001024 228.633593-187.064873 415.697442-415.697442 415.697442z" fill="#5EAADE" p-id="21984"></path><path d="M729.459932 627.30075c-3.156638-39.628458-24.044923-83.747676-32.624058-105.910698l-22.084182-57.046794c-0.701361-23.73059 6.312253-78.322108-30.510759-146.611164s-110.820228-74.444654-124.497288-75.146016c-13.67706-0.701361-99.247252-1.402723-141.330987 72.944663-42.083735 74.347385-30.744205 148.812517-30.744205 148.812517l-23.523765 57.47785c-0.001024 0.002048-10.961716 26.222727-20.429584 58.135185-9.468891 31.913482-18.937783 82.063385-9.468892 92.233638 9.468891 10.170253 43.836626-46.643096 46.993265-51.902795 0 0 2.455277 27.179036 8.942615 41.382373l0.809893 1.776441 0.330715 0.722863 0.378837 0.826276 0.299999 0.652215 0.444366 0.960404 0.202729 0.435151a281.465052 281.465052 0 0 0 1.917738 4.024893l0.188394 0.386005c0.231398 0.473035 0.467916 0.953237 0.711601 1.442655l0.145391 0.291807c6.886653 13.807094 18.611164 33.823028 37.443487 50.420209l0.017406 0.015358-1.183612 0.387029c-10.666837 3.516022-31.69437 11.209497-40.624698 19.819348-1.717056 1.655623-2.987697 3.345033-3.650151 5.045707-5.376422 13.793783 4.208169 15.430976 20.574976 16.365783 16.365783 0.934807 94.922361 3.039916 132.563457-2.220807 0.407506-0.056314 0.787368-0.113651 1.171325-0.170989 2.710224 0.094197 5.32318 0.14232 7.828627 0.16075l0.151535 0.001024c0.83549 0.005119 1.66279 0.008191 2.474731 0.008191 0.496584 0 1.01467-0.002048 1.541971-0.006144l0.209896-0.001023a222.59267 222.59267 0 0 0 5.462429-0.106484c0.260067 0.037884 0.507847 0.075768 0.778152 0.113651 37.64212 5.260723 116.197674 3.156638 132.563457 2.220807 16.365783-0.934807 25.951397-2.572 20.573952-16.365783-4.301342-11.03646-34.17422-21.619339-45.956069-25.412834a141.388325 141.388325 0 0 0 7.958661-7.645351l0.236517-0.244709a142.494121 142.494121 0 0 0 2.531045-2.702033c42.433903-46.643096 38.927096-76.101301 40.681011-92.935 0 0 35.775577 51.552626 43.488506 53.306542 7.712928 1.753916 10.168205-6.311229 7.011566-45.940711z" fill="#FFFFFF" p-id="21985"></path></svg>qq - 756321586</p>
-    <p class="text-gray text-normal mb-2 d-flex flex-items-center"><svg t="1619081611947" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="10855" width="32" height="32"><path d="M695.117759 54.47654a35.041276 35.041276 0 1 1-34.969025-34.969026 34.969026 34.969026 0 0 1 34.969025 34.969026zM1009.405489 131.928597a24.781768 24.781768 0 1 1-24.781768-24.781769 24.781768 24.781768 0 0 1 24.781768 24.781769zM209.525153 73.478304a33.596275 33.596275 0 1 1-33.524024-33.596275A33.524025 33.524025 0 0 1 209.525153 73.478304zM925.523178 296.586467a15.533761 15.533761 0 1 1-15.172511-15.461511 15.461511 15.461511 0 0 1 15.172511 15.461511zM75.790306 281.124956a19.507514 19.507514 0 1 1-19.507515-19.507514 19.507514 19.507514 0 0 1 19.507515 19.507514z" fill="#5FB0E5" p-id="10856"></path><path d="M959.841953 471.937346v-4.696254H56.282791l450.11783 264.001694 453.441332-259.30544z" fill="#5FB0E5" p-id="10857"></path><path d="M958.180202 462.617089v4.624003H54.62104l450.19008-263.929443 453.369082 259.30544z" fill="#D2E9F7" p-id="10858"></path><path d="M232.13942 149.99111h559.35991a47.323785 47.323785 0 0 1 47.323784 47.323785v587.32068H184.815635V197.314895a47.323785 47.323785 0 0 1 47.323785-47.323785z" fill="#FFFFFF" p-id="10859"></path><path d="M857.969378 803.709589H165.669371V197.314895a66.542299 66.542299 0 0 1 66.470049-66.470049h559.35991a66.542299 66.542299 0 0 1 66.470048 66.470049zM203.961899 765.850561h615.787201V197.314895a28.322021 28.322021 0 0 0-28.24977-28.249771H232.13942a28.249771 28.249771 0 0 0-28.177521 28.249771z" fill="#0686D8" p-id="10860"></path><path d="M56.282791 467.241092h-3.251252v523.234883l453.369082-259.233189-450.11783-264.001694zM959.841953 471.937346l-453.441332 259.30544 450.11783 263.929443h3.323502V471.937346z" fill="#D2E9F7" p-id="10861"></path><path d="M53.031539 990.475975v4.696254h903.486912l-450.11783-263.929443-256.993438 146.956607-196.375644 112.276582z" fill="#9ECFEF" p-id="10862"></path><path d="M46.601284 483.714104l19.341339-32.967699 885.922924 519.557356-19.334114 32.974924z" fill="#0686D8" p-id="10863"></path><path d="M59.714669 968.750385l888.047075-513.336626 19.124589 33.090524-888.03985 513.336626z" fill="#0686D8" p-id="10864"></path><path d="M916.636421 1014.101743h-54.47654v-38.220278h54.47654a20.808015 20.808015 0 0 0 14.450011-5.996755 21.169266 21.169266 0 0 0 6.213504-14.45001l1.950752-465.145841a20.663515 20.663515 0 0 0-10.404008-18.062513l-56.860791-37.064277 20.808015-32.079024 56.138291 36.558527a58.883793 58.883793 0 0 1 28.900021 50.575037l-1.445001 464.71234a59.100543 59.100543 0 0 1-59.172793 58.956044z" fill="#0686D8" p-id="10865"></path><path d="M654.72998 1010.12799H92.769068a59.028293 59.028293 0 0 1-58.739293-59.100543l1.445001-460.810838a59.100543 59.100543 0 0 1 28.900021-50.575037l64.158047-37.642278 19.363014 32.946025-64.158047 37.714527a20.735765 20.735765 0 0 0-10.259507 17.773513L72.250053 950.810696a20.735765 20.735765 0 0 0 20.591265 20.808016h561.888662z" fill="#0686D8" p-id="10866"></path><path d="M279.752205 292.973965h470.925845v38.220278H279.752205z" fill="#0686D8" p-id="10867"></path><path d="M279.752205 406.912298h470.925845v38.220278H279.752205z" fill="#0686D8" p-id="10868"></path><path d="M279.752205 520.778381h470.925845v38.220278H279.752205z" fill="#0686D8" p-id="10869"></path><path d="M695.117759 971.907712h110.976081v38.220278H695.117759z" fill="#0686D8" p-id="10870"></path></svg>电子邮箱 - 756321586@qq.com</p>
-    <div class="col-12 d-flex flex-justify-center">
+    <div>
+        <h2 id="举例">举例：</h2>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"UTF-8"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">http-equiv=</span><span class="s">"X-UA-Compatible"</span> <span class="na">content=</span><span class="s">"IE=edge"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"width=device-width, initial-scale=1.0"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;title&gt;</span>Document<span class="nt">&lt;/title&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;div&gt;</span>
+        <span class="nt">&lt;p&gt;&lt;/p&gt;</span>
+        <span class="nt">&lt;a&gt;&lt;/a&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+<p>以上结构可以表示为 如下的树形结构</p>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>html
+├── <span class="nb">head</span>
+│   ├── meta
+│   ├── meta
+│   ├── meta
+│   └── title
+└── body
+    └── div
+        ├── p
+        └── a
+</code></pre></div></div>
+
+<p>html是整个文档的根节点</p>
+
+<p>head和body为html的子节点</p>
+
+<p>body是div的父节点，每个节点就是一个dom元素/对象，js代码最主要的作用就是操作dom元素来改变页面内容</p>
+
+<h2 id="扩展阅读">扩展阅读：</h2>
+
+<ol>
+  <li>Introduction to the DOM：<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction">https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction</a></li>
+</ol>
+
+    </div>
+  </div>
+  
+  <div class="col-12 d-flex flex-justify-center">
     <p>创作不易，感谢支持</p>
 </div>
 <div class="col-12 d-flex flex-justify-center">
@@ -534,6 +542,7 @@
         return
     }
 </script>
+
 
 </div>
     <footer class="color-bg-secondary p-3" style="min-height: 50px;">
